@@ -1,0 +1,529 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.ericsson.nms.security.taf:ai-core-test-execution:pom:1.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 115, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ line 123, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] ai-core-testware
+[INFO] ai-core-testcases
+[INFO] ai-core-test-execution
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ai-core-testware 1.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ ai-core-testware ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ ai-core-testware ---
+[INFO] Installing C:\Users\emacgma\git_repos\ai-core-testware\pom.xml to C:\Users\emacgma\.m2\repository\com\ericsson\nms\security\taf\ai-core-testware\1.0.1-SNAPSHOT\ai-core-testware-1.0.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ai-core-testcases 1.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ ai-core-testcases ---
+[INFO] Deleting C:\Users\emacgma\git_repos\ai-core-testware\ai-core-testcases\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ai-core-testcases ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 77 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ ai-core-testcases ---
+[INFO] Compiling 8 source files to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-testcases\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ai-core-testcases ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\emacgma\git_repos\ai-core-testware\ai-core-testcases\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ ai-core-testcases ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ ai-core-testcases ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ ai-core-testcases ---
+[INFO] Building jar: C:\Users\emacgma\git_repos\ai-core-testware\ai-core-testcases\target\ai-core-testcases-1.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ ai-core-testcases ---
+[INFO] Installing C:\Users\emacgma\git_repos\ai-core-testware\ai-core-testcases\target\ai-core-testcases-1.0.1-SNAPSHOT.jar to C:\Users\emacgma\.m2\repository\com\ericsson\nms\security\taf\ai-core-testcases\1.0.1-SNAPSHOT\ai-core-testcases-1.0.1-SNAPSHOT.jar
+[INFO] Installing C:\Users\emacgma\git_repos\ai-core-testware\ai-core-testcases\pom.xml to C:\Users\emacgma\.m2\repository\com\ericsson\nms\security\taf\ai-core-testcases\1.0.1-SNAPSHOT\ai-core-testcases-1.0.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ai-core-test-execution 1.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ ai-core-test-execution ---
+[INFO] Deleting C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.5.1:analyze-dep-mgt (default) @ ai-core-test-execution ---
+[INFO] Found Resolved Dependency / DependencyManagement mismatches:
+[INFO]    None
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.5.1:unpack (unpack-suite-xml) @ ai-core-test-execution ---
+[INFO] Configured Artifact: com.ericsson.nms.security.taf:ai-core-testcases:1.0.1-SNAPSHOT:jar
+[INFO] Unpacking C:\Users\emacgma\git_repos\ai-core-testware\ai-core-testcases\target\ai-core-testcases-1.0.1-SNAPSHOT.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\taf with includes "**suites/*.xml" and excludes "**/*.class"
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.5.1:copy-dependencies (taf:copy-dependencies) @ ai-core-test-execution ---
+[INFO] Copying taf-ui-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\taf-ui.jar
+[INFO] Copying data-handler-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\data-handler.jar
+[INFO] Copying taf-ui-sikuli-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\taf-ui-sikuli.jar
+[INFO] Copying taf-ui-selenium-drivers-2.39.0-chrome-win-x64.zip to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\taf-ui-selenium-drivers-chrome-win-x64.zip
+[INFO] Copying ai-core-testcases-1.0.1-SNAPSHOT.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\ai-core-testcases.jar
+[INFO] Copying curl-rest-tool-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\curl-rest-tool.jar
+[INFO] Copying taf-core-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\taf-core.jar
+[INFO] Copying ui-taf-sdk-2.0.11.pom to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\ui-taf-sdk.pom
+[INFO] Copying taf-ui-selenium-drivers-2.39.0-ie-win-x64.zip to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\taf-ui-selenium-drivers-ie-win-x64.zip
+[INFO] Copying taf-performance-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\taf-performance.jar
+[INFO] Copying all-taf-sdk-2.0.11.pom to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\all-taf-sdk.pom
+[INFO] Copying testng-runner-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\testng-runner.jar
+[INFO] Copying http-tool-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\http-tool.jar
+[INFO] Copying jcat-runner-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\jcat-runner.jar
+[INFO] Copying taf-api-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\taf-api.jar
+[INFO] Copying taf-netsim-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\taf-netsim.jar
+[INFO] Copying tal-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\tal.jar
+[INFO] Copying taf-jboss-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\taf-jboss.jar
+[INFO] Copying j2ssh-cli-tool-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\j2ssh-cli-tool.jar
+[INFO] Copying tafutils-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\tafutils.jar
+[INFO] Copying calculator-api-1.0-SNAPSHOT.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\calculator-api.jar
+[INFO] Copying ossrc-topology-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\ossrc-topology.jar
+[INFO] Copying ai-core-api-1.0.3.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\ai-core-api.jar
+[INFO] Copying jsch-cli-tool-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\jsch-cli-tool.jar
+[INFO] Copying taf-ui-selenium-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\taf-ui-selenium.jar
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default) @ ai-core-test-execution >>>
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.5.1:analyze-dep-mgt (default) @ ai-core-test-execution ---
+[INFO] Found Resolved Dependency / DependencyManagement mismatches:
+[INFO]    None
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (default) @ ai-core-test-execution <<<
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:java (default) @ ai-core-test-execution ---
+2014-02-27 17:02:37,568 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [com.ericsson.cifwk.taf.management.TafManager] Try to find end stop old running TAF[com.ericsson.cifwk.taf:testcases:0]
+2014-02-27 17:02:38,211 [com.ericsson.cifwk.taf.Taf.main()] [ERROR] [com.ericsson.cifwk.taf.management.TafManager] Can't connect to JMX on VM org.codehaus.plexus.classworlds.launcher.Launcher clean install -Dsuites=endToEnd.xml:18744
+2014-02-27 17:02:38,211 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [com.ericsson.cifwk.taf.management.TafManager] Start new JMX for TAF[com.ericsson.cifwk.taf:testcases:0]
+2014-02-27 17:02:38,216 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [com.ericsson.cifwk.taf.management.TafBootstrap] Initializing TAF plugin : JCatTafPlugin
+2014-02-27 17:02:38,641 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [com.ericsson.cifwk.taf.management.TafBootstrap] Initializing TAF plugin : TestNgPlugin
+2014-02-27 17:02:38,655 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [com.ericsson.cifwk.taf.management.TafBootstrap] Initializing TAF plugin : NetSimTafPlugin
+2014-02-27 17:02:38,675 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [com.ericsson.cifwk.taf.management.TafBootstrap] Initializing TAF plugin : PerformancePlugin
+2014-02-27 17:02:38,714 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [com.ericsson.cifwk.taf.management.TafBootstrap] Initializing TAF plugin : UiTafPlugin
+2014-02-27 17:02:38,888 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.TorNgSuiteListener] Starting pre-run cleaning
+2014-02-27 17:02:39,239 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ScheduledCleaner] Added C:\Users\emacgma\git_repos\ai-core-testware\tmp to clean on start
+2014-02-27 17:02:39,305 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [se.ericsson.jcat.fw.ng.listeners.JcatSuiteListener] Initializing JCAT framework...
+2014-02-27 17:02:39,305 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [se.ericsson.jcat.fw.ng.listeners.JcatSuiteListener] Current logging level: DEBUG
+2014-02-27 17:02:39,305 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [se.ericsson.jcat.fw.ng.listeners.JcatSuiteListener] Reading properties...
+2014-02-27 17:02:39,313 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [se.ericsson.jcat.fw.ng.listeners.JcatSuiteListener] Read properties from: 
+2014-02-27 17:02:39,313 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [se.ericsson.jcat.fw.ng.listeners.JcatSuiteListener] Creating logging structure...
+2014-02-27 17:02:39,313 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [se.ericsson.jcat.fw.ng.listeners.JcatSuiteListener] legacylogging is turned on
+2014-02-27 17:02:39,315 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [se.ericsson.jcat.fw.logging.writers.LogWriterUtils] Created directory: C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target/Jcat_LOGS
+2014-02-27 17:02:39,315 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [se.ericsson.jcat.fw.ng.listeners.JcatSuiteListener] The log dir will be : C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target/Jcat_LOGS
+2014-02-27 17:02:39,315 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [se.ericsson.jcat.fw.logging.writers.LogWriterUtils] Extracting Dtree skeleton to: C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target/Jcat_LOGS
+2014-02-27 17:02:39,653 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [se.ericsson.jcat.fw.ng.listeners.JcatSuiteListener] Registering traffic plugins if any
+2014-02-27 17:02:39,657 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [se.ericsson.jcat.fw.ng.listeners.JcatSuiteListener] Initiating registered traffic plugins if any
+2014-02-27 17:02:39,660 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [se.ericsson.jcat.fw.ng.listeners.JcatSuiteListener] JCAT Bundle(TestNG Based) Version: R3B02
+2014-02-27 17:02:40,502 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] Stopping all monitors in Shutdown Hook
+2014-02-27 17:02:40,599 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ScheduledCleaner] Added tmp\files to clean on start
+2014-02-27 17:02:44,082 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.tal.implementation.rest.curl.CurlRunHelper] Starting curl for [OPERATION:GET, ENCODING:URL, PARAMETERS:[:], HOST:eselivm2v238l.lmera.ericsson.se, PORT:8081, URI:nexus/content/repositories/releases/com/ericsson/cifwk/ERICtaf_util/maven-metadata.xml, COOKIE_MANAGEMENT:true, SSL_IGNORE:true, FOLLOW_REDIRECTION:true, PROTOCOL:HTTP, CONNECTION_TIMEOUT:5, HEADER_ENTRIES:[Connection: close], AUTHENTICATION_CREDENTIALS:null, NO_PROXY:true, VUSERID:548377887876527]
+2014-02-27 17:02:44,453 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.tal.implementation.rest.curl.CurlRunHelper] Curl finished with status 0 and output response size: 2071 and error response size: 317  within 378 miliseconds
+2014-02-27 17:02:44,574 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [com.ericsson.cifwk.taf.TorNgSuiteListener] TAF version: 2.0.11
+2014-02-27 17:02:44,576 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] Starting monitors for run
+2014-02-27 17:02:44,577 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.DataHandler] Getting monitor configuration
+2014-02-27 17:02:44,712 [ForkJoinPool-2-worker-2] [WARN] [com.ericsson.cifwk.taf.data.postprocessor.AbstractDataPostProcessor] Property line monitor.plot_size_limit=200000 is incorrect for monitor configuration 
+2014-02-27 17:02:44,737 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.postprocessor.MonitorConfigurationDataPostProcessor] Monitor Value for Monitor aslogmon = [defaultTimeout:120000, minWaitTime:100, checkInterval:100, collectionTime:30]
+2014-02-27 17:02:44,743 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.postprocessor.MonitorConfigurationDataPostProcessor] Created monitor configuration <com.ericsson.cifwk.taf.data.MonitorConfiguration@4fec0b4f attributes=[defaultTimeout:120000, minWaitTime:100, checkInterval:100, collectionTime:30, name:aslogmon]>
+2014-02-27 17:02:44,743 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.postprocessor.MonitorConfigurationDataPostProcessor] Monitor Value for Monitor mem = [process:[taf:java taf-core], dont_plot:pages, collectionTime:30]
+2014-02-27 17:02:44,744 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.postprocessor.MonitorConfigurationDataPostProcessor] Created monitor configuration <com.ericsson.cifwk.taf.data.MonitorConfiguration@467dcc62 attributes=[process:[taf:java taf-core], dont_plot:pages, collectionTime:30, name:mem]>
+2014-02-27 17:02:44,744 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.postprocessor.MonitorConfigurationDataPostProcessor] Monitor Value for Monitor oslogmon = [checkInterval:100, defaultTimeout:120000, collectionTime:30, minWaitTime:100]
+2014-02-27 17:02:44,744 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.postprocessor.MonitorConfigurationDataPostProcessor] Created monitor configuration <com.ericsson.cifwk.taf.data.MonitorConfiguration@6cf55a15 attributes=[checkInterval:100, defaultTimeout:120000, collectionTime:30, minWaitTime:100, name:oslogmon]>
+2014-02-27 17:02:44,744 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.postprocessor.MonitorConfigurationDataPostProcessor] Monitor Value for Monitor tool = [dont_plot:vusers result tc_name, collectionTime:action]
+2014-02-27 17:02:44,744 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.postprocessor.MonitorConfigurationDataPostProcessor] Created monitor configuration <com.ericsson.cifwk.taf.data.MonitorConfiguration@5fed5095 attributes=[dont_plot:vusers result tc_name, collectionTime:action, name:tool]>
+2014-02-27 17:02:44,744 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.postprocessor.MonitorConfigurationDataPostProcessor] Monitor Value for Monitor asmbean = [collectionTime:30, mbean:[Threading:[name:java.lang:type=Threading, forget:CurrentThreadCpuTimeSupported, ObjectMonitorUsageSupported, SynchronizerUsageSupported, ThreadAllocatedMemoryEnabled, ThreadAllocatedMemorySupported, ThreadContentionMonitoringEnabled, ThreadContentionMonitoringSupported, ThreadCpuTimeEnabled, ThreadCpuTimeSupported], Memory:[forget:memorypool, Verbose, name:java.lang:type=Memory]]]
+2014-02-27 17:02:44,745 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.postprocessor.MonitorConfigurationDataPostProcessor] Created monitor configuration <com.ericsson.cifwk.taf.data.MonitorConfiguration@55459766 attributes=[collectionTime:30, mbean:[Threading:[name:java.lang:type=Threading, forget:CurrentThreadCpuTimeSupported, ObjectMonitorUsageSupported, SynchronizerUsageSupported, ThreadAllocatedMemoryEnabled, ThreadAllocatedMemorySupported, ThreadContentionMonitoringEnabled, ThreadContentionMonitoringSupported, ThreadCpuTimeEnabled, ThreadCpuTimeSupported], Memory:[forget:memorypool, Verbose, name:java.lang:type=Memory]], name:asmbean]>
+2014-02-27 17:02:44,745 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.postprocessor.MonitorConfigurationDataPostProcessor] Monitor Value for Monitor net = [collectionTime:30]
+2014-02-27 17:02:44,745 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.postprocessor.MonitorConfigurationDataPostProcessor] Created monitor configuration <com.ericsson.cifwk.taf.data.MonitorConfiguration@4bd6d546 attributes=[collectionTime:30, name:net]>
+2014-02-27 17:02:44,745 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.postprocessor.MonitorConfigurationDataPostProcessor] Monitor Value for Monitor cpu = [collectionTime:30]
+2014-02-27 17:02:44,745 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.postprocessor.MonitorConfigurationDataPostProcessor] Created monitor configuration <com.ericsson.cifwk.taf.data.MonitorConfiguration@ebdc3d9 attributes=[collectionTime:30, name:cpu]>
+2014-02-27 17:02:44,745 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.postprocessor.MonitorConfigurationDataPostProcessor] Processed monitors list [aslogmon: false, mem: false, oslogmon: false, tool: false, asmbean: false, net: false, cpu: false]
+2014-02-27 17:02:44,748 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] Found monitor configurations [aslogmon: false, mem: false, oslogmon: false, tool: false, asmbean: false, net: false, cpu: false]
+2014-02-27 17:02:44,750 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] Getting monitor classes
+2014-02-27 17:02:45,326 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] Found monitor definition files [C:\Users\emacgma\git_repos\ai-core-testware\tmp\files/taf-core.jar/META-INF/services/monitors, C:\Users\emacgma\git_repos\ai-core-testware\tmp\files\taf-core.jar\META-INF\services\monitors]
+2014-02-27 17:02:45,392 [com.ericsson.cifwk.taf.Taf.main()] [ERROR] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] No monitor implemenation for aslogmon found or monitor started already. Ignoring.
+2014-02-27 17:02:45,392 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] Getting monitor classes
+2014-02-27 17:02:45,408 [com.ericsson.cifwk.taf.Taf.main()] [ERROR] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] No monitor implemenation for mem found or monitor started already. Ignoring.
+2014-02-27 17:02:45,409 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] Getting monitor classes
+2014-02-27 17:02:45,422 [com.ericsson.cifwk.taf.Taf.main()] [ERROR] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] No monitor implemenation for oslogmon found or monitor started already. Ignoring.
+2014-02-27 17:02:45,422 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] Getting monitor classes
+2014-02-27 17:02:45,440 [com.ericsson.cifwk.taf.Taf.main()] [ERROR] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] No monitor implemenation for tool found or monitor started already. Ignoring.
+2014-02-27 17:02:45,440 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] Getting monitor classes
+2014-02-27 17:02:45,450 [com.ericsson.cifwk.taf.Taf.main()] [ERROR] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] No monitor implemenation for asmbean found or monitor started already. Ignoring.
+2014-02-27 17:02:45,450 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] Getting monitor classes
+2014-02-27 17:02:45,460 [com.ericsson.cifwk.taf.Taf.main()] [ERROR] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] No monitor implemenation for net found or monitor started already. Ignoring.
+2014-02-27 17:02:45,461 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] Getting monitor classes
+2014-02-27 17:02:45,473 [com.ericsson.cifwk.taf.Taf.main()] [ERROR] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] No monitor implemenation for cpu found or monitor started already. Ignoring.
+2014-02-27 17:02:45,623 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.execution.TestNGAnnotationTransformer] Method public void com.ericsson.cifwk.taf.oasis.test.cases.EndToEndTest.verifyAutoIntegrationEndToEndSC2(java.lang.String,java.lang.String,java.lang.String) will be called for 1 vusers and 1 contexts
+Found cloud environment in host.properties.
+2014-02-27 17:02:47,903 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.HostTunnelHelper] Starting tunnel for sc2
+2014-02-27 17:02:47,927 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.HostTunnelHelper] Starting tunnel for sc2 using remote ip 192.168.0.44, gateway as SSH host and 127.0.0.1 as start of the tunnel
+2014-02-27 17:02:47,932 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.HostTunnelHelper] Creating tunnel using SSH host gateway
+2014-02-27 17:02:48,081 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshTunnel] Creating configuration with name local_20002_to_192.168.0.44:9999
+2014-02-27 17:02:48,083 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshConnectionsHelper] Creating new connections to 10.45.200.115 on port 22 for user root with pass shroot
+2014-02-27 17:02:48,116 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshConnectionsHelper] Connections updated: [10.45.200.115:root:22:shroot:[com.sshtools.j2ssh.SshClient@55cbe5d2]]
+2014-02-27 17:02:48,116 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshConnectionsHelper] Connecting to 10.45.200.115 on port 22
+2014-02-27 17:02:48,495 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshConnectionsHelper] Connection started. Current state: 4
+2014-02-27 17:02:48,516 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshConnectionsHelper] Authentication finished with status COMPLETE
+2014-02-27 17:02:48,524 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshTunnel] Creating configuration with name local_10025_to_192.168.0.44:22
+2014-02-27 17:02:48,526 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshTunnel] Creating configuration with name local_14450_to_192.168.0.44:4447
+2014-02-27 17:02:48,528 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshTunnel] Creating configuration with name local_18083_to_192.168.0.44:8080
+2014-02-27 17:02:48,530 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.HostTunnelHelper] Tunnel for sc2 started. Overriding properties with ports [JMX:20002, SSH:10025, RMI:14450, HTTP:18083]
+2014-02-27 17:02:48,744 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.HostTunnelHelper] Starting tunnel for sc2jbi
+2014-02-27 17:02:48,744 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.HostTunnelHelper] Starting tunnel for sc2jbi using remote ip 192.168.0.90, gateway as SSH host and 127.0.0.1 as start of the tunnel
+2014-02-27 17:02:48,744 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.HostTunnelHelper] Creating tunnel using SSH host gateway
+2014-02-27 17:02:48,828 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshTunnel] Creating configuration with name local_14451_to_192.168.0.90:4447
+2014-02-27 17:02:48,830 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshTunnel] Creating configuration with name local_18447_to_192.168.0.90:8443
+2014-02-27 17:02:48,832 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshTunnel] Creating configuration with name local_18084_to_192.168.0.90:8080
+2014-02-27 17:02:48,834 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshTunnel] Creating configuration with name local_20003_to_192.168.0.90:9999
+2014-02-27 17:02:48,837 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshTunnel] Creating configuration with name local_10026_to_192.168.0.90:22
+2014-02-27 17:02:48,839 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.HostTunnelHelper] Tunnel for sc2jbi started. Overriding properties with ports [RMI:14451, HTTPS:18447, HTTP:18084, JMX:20003, SSH:10026]
+2014-02-27 17:02:48,971 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.HostTunnelHelper] Starting tunnel for sc1
+2014-02-27 17:02:48,971 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.HostTunnelHelper] Starting tunnel for sc1 using remote ip 192.168.0.43, gateway as SSH host and 127.0.0.1 as start of the tunnel
+2014-02-27 17:02:48,971 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.HostTunnelHelper] Creating tunnel using SSH host gateway
+2014-02-27 17:02:49,013 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshTunnel] Creating configuration with name local_14448_to_192.168.0.43:4447
+2014-02-27 17:02:49,015 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshTunnel] Creating configuration with name local_18081_to_192.168.0.43:8080
+2014-02-27 17:02:49,017 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshTunnel] Creating configuration with name local_20000_to_192.168.0.43:9999
+2014-02-27 17:02:49,019 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshTunnel] Creating configuration with name local_10023_to_192.168.0.43:22
+2014-02-27 17:02:49,020 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.HostTunnelHelper] Tunnel for sc1 started. Overriding properties with ports [RMI:14448, HTTP:18081, JMX:20000, SSH:10023]
+2014-02-27 17:02:49,112 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.HostTunnelHelper] Starting tunnel for sc1jbi
+2014-02-27 17:02:49,113 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.HostTunnelHelper] Starting tunnel for sc1jbi using remote ip 192.168.0.89, gateway as SSH host and 127.0.0.1 as start of the tunnel
+2014-02-27 17:02:49,113 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.HostTunnelHelper] Creating tunnel using SSH host gateway
+2014-02-27 17:02:49,139 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshTunnel] Creating configuration with name local_20001_to_192.168.0.89:9999
+2014-02-27 17:02:49,141 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshTunnel] Creating configuration with name local_10024_to_192.168.0.89:22
+2014-02-27 17:02:49,143 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshTunnel] Creating configuration with name local_14449_to_192.168.0.89:4447
+2014-02-27 17:02:49,144 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshTunnel] Creating configuration with name local_18082_to_192.168.0.89:8080
+2014-02-27 17:02:49,146 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.HostTunnelHelper] Tunnel for sc1jbi started. Overriding properties with ports [JMX:20001, SSH:10024, RMI:14449, HTTP:18082]
+Host: sc1jbi
+Type: JBOSS
+Ip: 127.0.0.1
+OrigIp: 192.168.0.89
+RealIp: 192.168.0.89
+User: guest
+Pass: guestp
+TunnelPortOffset: 2
+Parent: gateway
+Nodes: []
+
+Host: sc2jbi
+Type: JBOSS
+Ip: 127.0.0.1
+OrigIp: 192.168.0.90
+RealIp: 192.168.0.90
+User: guest
+Pass: guestp
+TunnelPortOffset: 4
+Parent: gateway
+Nodes: []
+
+Host: sc1
+Type: SC1
+Ip: 127.0.0.1
+OrigIp: 192.168.0.43
+RealIp: 192.168.0.43
+User: root
+Pass: litpc0b6lEr
+TunnelPortOffset: 1
+Parent: gateway
+Nodes: []
+
+Host: sc2
+Type: SC2
+Ip: 127.0.0.1
+OrigIp: 192.168.0.44
+RealIp: 192.168.0.44
+User: root
+Pass: litpc0b6lEr
+TunnelPortOffset: 3
+Parent: gateway
+Nodes: []
+
+2014-02-27 17:02:49,469 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.execution.TestNGAnnotationTransformer] Method public void com.ericsson.cifwk.taf.oasis.test.cases.EndToEndTest.verifyAutoIntegrationEndToEndSC1(java.lang.String,java.lang.String,java.lang.String) will be called for 1 vusers and 1 contexts
+2014-02-27 17:02:49,469 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.execution.TestNGAnnotationTransformer] Method public void com.ericsson.cifwk.taf.oasis.test.cases.EndToEndTest.verifyAutoIntegrationEndToEndClusterSC1SC2(java.lang.String,java.lang.String,java.lang.String) will be called for 1 vusers and 1 contexts
+2014-02-27 17:02:49,470 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.execution.TestNGAnnotationTransformer] Method public void com.ericsson.cifwk.taf.oasis.test.cases.EndToEndTest.verifyAutoIntegrationEndToEndClusterSC2SC1(java.lang.String,java.lang.String,java.lang.String) will be called for 1 vusers and 1 contexts
+2014-02-27 17:02:49,471 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.execution.TestNGAnnotationTransformer] Method public void com.ericsson.cifwk.taf.oasis.test.cases.EndToEndTest.testvusers(java.lang.String,java.lang.String,java.lang.String) will be called for 1 vusers and 1 contexts
+2014-02-27 17:02:49,472 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.execution.TestNGAnnotationTransformer] Method public void com.ericsson.cifwk.taf.oasis.test.cases.AICoreTest.verifyAICoreWriteFilesMultipleCalls(java.lang.String,java.lang.String,java.lang.String) will be called for 1 vusers and 1 contexts
+2014-02-27 17:02:49,473 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.execution.TestNGAnnotationTransformer] Method public void com.ericsson.cifwk.taf.oasis.test.cases.AICoreTest.verifyAICoreDeleteNonExistingFiles(java.lang.String,java.lang.String,java.lang.String) will be called for 1 vusers and 1 contexts
+2014-02-27 17:02:49,476 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.execution.TestNGAnnotationTransformer] Method public void com.ericsson.cifwk.taf.oasis.test.cases.AICoreTest.verifyAICoreConcurrentWritingFilesAsExpected(java.lang.String,java.lang.String,java.lang.String) will be called for 2 vusers and 1 contexts
+2014-02-27 17:02:49,478 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.execution.TestNGAnnotationTransformer] Method public void com.ericsson.cifwk.taf.oasis.test.cases.AICoreTest.verifyAICoreWriteFiles(java.lang.String,java.lang.String,java.lang.String) will be called for 1 vusers and 1 contexts
+2014-02-27 17:02:49,479 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.execution.TestNGAnnotationTransformer] Method public void com.ericsson.cifwk.taf.oasis.test.cases.AICoreTest.verifyAICoreDeleteFiles(java.lang.String,java.lang.String,java.lang.String) will be called for 1 vusers and 1 contexts
+2014-02-27 17:02:49,630 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.SuiteExecutionHelper] Requesting run for endToEndPerformance with parallel: true
+2014-02-27 17:02:49,638 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.SuiteExecutionHelper] Parallel run for endToEndPerformance in progress
+2014-02-27 17:02:52,449 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.BooleanConverter] Setting default value: false
+2014-02-27 17:02:52,449 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.BooleanConverter] Converting 'Boolean' value 'false' to type 'Boolean'
+2014-02-27 17:02:52,449 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.BooleanConverter]     No conversion required, value is already a Boolean
+2014-02-27 17:02:52,451 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ByteConverter] Setting default value: 0
+2014-02-27 17:02:52,451 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ByteConverter] Converting 'Integer' value '0' to type 'Byte'
+2014-02-27 17:02:52,451 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ByteConverter]     Converted to Byte value '0'
+2014-02-27 17:02:52,452 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.CharacterConverter] Setting default value:  
+2014-02-27 17:02:52,452 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.CharacterConverter] Converting 'Character' value ' ' to type 'Character'
+2014-02-27 17:02:52,452 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.CharacterConverter]     No conversion required, value is already a Character
+2014-02-27 17:02:52,452 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.DoubleConverter] Setting default value: 0
+2014-02-27 17:02:52,452 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.DoubleConverter] Converting 'Integer' value '0' to type 'Double'
+2014-02-27 17:02:52,453 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.DoubleConverter]     Converted to Double value '0.0'
+2014-02-27 17:02:52,453 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.FloatConverter] Setting default value: 0
+2014-02-27 17:02:52,453 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.FloatConverter] Converting 'Integer' value '0' to type 'Float'
+2014-02-27 17:02:52,453 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.FloatConverter]     Converted to Float value '0.0'
+2014-02-27 17:02:52,453 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.IntegerConverter] Setting default value: 0
+2014-02-27 17:02:52,453 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.IntegerConverter] Converting 'Integer' value '0' to type 'Integer'
+2014-02-27 17:02:52,454 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.IntegerConverter]     No conversion required, value is already a Integer
+2014-02-27 17:02:52,454 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.LongConverter] Setting default value: 0
+2014-02-27 17:02:52,454 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.LongConverter] Converting 'Integer' value '0' to type 'Long'
+2014-02-27 17:02:52,454 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.LongConverter]     Converted to Long value '0'
+2014-02-27 17:02:52,454 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ShortConverter] Setting default value: 0
+2014-02-27 17:02:52,454 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ShortConverter] Converting 'Integer' value '0' to type 'Short'
+2014-02-27 17:02:52,455 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ShortConverter]     Converted to Short value '0'
+2014-02-27 17:02:52,455 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.BigDecimalConverter] Setting default value: 0.0
+2014-02-27 17:02:52,455 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.BigDecimalConverter] Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+2014-02-27 17:02:52,455 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.BigDecimalConverter]     No conversion required, value is already a BigDecimal
+2014-02-27 17:02:52,456 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.BigIntegerConverter] Setting default value: 0
+2014-02-27 17:02:52,456 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.BigIntegerConverter] Converting 'BigInteger' value '0' to type 'BigInteger'
+2014-02-27 17:02:52,456 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.BigIntegerConverter]     No conversion required, value is already a BigInteger
+2014-02-27 17:02:52,456 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.BooleanConverter] Setting default value: false
+2014-02-27 17:02:52,456 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.BooleanConverter] Converting 'Boolean' value 'false' to type 'Boolean'
+2014-02-27 17:02:52,456 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.BooleanConverter]     No conversion required, value is already a Boolean
+2014-02-27 17:02:52,456 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ByteConverter] Setting default value: 0
+2014-02-27 17:02:52,456 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ByteConverter] Converting 'Integer' value '0' to type 'Byte'
+2014-02-27 17:02:52,456 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ByteConverter]     Converted to Byte value '0'
+2014-02-27 17:02:52,456 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.CharacterConverter] Setting default value:  
+2014-02-27 17:02:52,456 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.CharacterConverter] Converting 'Character' value ' ' to type 'Character'
+2014-02-27 17:02:52,456 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.CharacterConverter]     No conversion required, value is already a Character
+2014-02-27 17:02:52,456 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.DoubleConverter] Setting default value: 0
+2014-02-27 17:02:52,456 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.DoubleConverter] Converting 'Integer' value '0' to type 'Double'
+2014-02-27 17:02:52,456 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.DoubleConverter]     Converted to Double value '0.0'
+2014-02-27 17:02:52,456 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.FloatConverter] Setting default value: 0
+2014-02-27 17:02:52,456 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.FloatConverter] Converting 'Integer' value '0' to type 'Float'
+2014-02-27 17:02:52,456 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.FloatConverter]     Converted to Float value '0.0'
+2014-02-27 17:02:52,456 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.IntegerConverter] Setting default value: 0
+2014-02-27 17:02:52,456 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.IntegerConverter] Converting 'Integer' value '0' to type 'Integer'
+2014-02-27 17:02:52,456 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.IntegerConverter]     No conversion required, value is already a Integer
+2014-02-27 17:02:52,456 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.LongConverter] Setting default value: 0
+2014-02-27 17:02:52,456 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.LongConverter] Converting 'Integer' value '0' to type 'Long'
+2014-02-27 17:02:52,456 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.LongConverter]     Converted to Long value '0'
+2014-02-27 17:02:52,457 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ShortConverter] Setting default value: 0
+2014-02-27 17:02:52,457 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ShortConverter] Converting 'Integer' value '0' to type 'Short'
+2014-02-27 17:02:52,457 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ShortConverter]     Converted to Short value '0'
+2014-02-27 17:02:52,457 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.StringConverter] Setting default value: 
+2014-02-27 17:02:52,457 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.StringConverter] Converting 'String' value '' to type 'String'
+2014-02-27 17:02:52,462 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Z@6d649e14
+2014-02-27 17:02:52,462 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'boolean[]' value '[Z@6d649e14' to type 'boolean[]'
+2014-02-27 17:02:52,462 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a boolean[]
+2014-02-27 17:02:52,463 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [B@68c66b27
+2014-02-27 17:02:52,463 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'byte[]' value '[B@68c66b27' to type 'byte[]'
+2014-02-27 17:02:52,463 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a byte[]
+2014-02-27 17:02:52,463 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [C@3aa5032e
+2014-02-27 17:02:52,463 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'char[]' value '[C@3aa5032e' to type 'char[]'
+2014-02-27 17:02:52,463 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a char[]
+2014-02-27 17:02:52,463 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [D@2773df16
+2014-02-27 17:02:52,463 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'double[]' value '[D@2773df16' to type 'double[]'
+2014-02-27 17:02:52,463 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a double[]
+2014-02-27 17:02:52,463 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [F@283b3196
+2014-02-27 17:02:52,463 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'float[]' value '[F@283b3196' to type 'float[]'
+2014-02-27 17:02:52,463 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a float[]
+2014-02-27 17:02:52,463 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [I@4634837c
+2014-02-27 17:02:52,463 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'int[]' value '[I@4634837c' to type 'int[]'
+2014-02-27 17:02:52,463 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a int[]
+2014-02-27 17:02:52,463 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [J@21a465e6
+2014-02-27 17:02:52,464 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'long[]' value '[J@21a465e6' to type 'long[]'
+2014-02-27 17:02:52,464 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a long[]
+2014-02-27 17:02:52,464 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [S@301df04b
+2014-02-27 17:02:52,464 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'short[]' value '[S@301df04b' to type 'short[]'
+2014-02-27 17:02:52,464 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a short[]
+2014-02-27 17:02:52,464 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.math.BigDecimal;@7d8ae49a
+2014-02-27 17:02:52,464 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@7d8ae49a' to type 'BigDecimal[]'
+2014-02-27 17:02:52,464 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a BigDecimal[]
+2014-02-27 17:02:52,464 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.math.BigInteger;@70cb9392
+2014-02-27 17:02:52,464 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@70cb9392' to type 'BigInteger[]'
+2014-02-27 17:02:52,464 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a BigInteger[]
+2014-02-27 17:02:52,464 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.lang.Boolean;@59f73b2f
+2014-02-27 17:02:52,464 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'Boolean[]' value '[Ljava.lang.Boolean;@59f73b2f' to type 'Boolean[]'
+2014-02-27 17:02:52,464 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a Boolean[]
+2014-02-27 17:02:52,464 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.lang.Byte;@2a46d769
+2014-02-27 17:02:52,464 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'Byte[]' value '[Ljava.lang.Byte;@2a46d769' to type 'Byte[]'
+2014-02-27 17:02:52,464 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a Byte[]
+2014-02-27 17:02:52,465 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.lang.Character;@10e8442e
+2014-02-27 17:02:52,465 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'Character[]' value '[Ljava.lang.Character;@10e8442e' to type 'Character[]'
+2014-02-27 17:02:52,465 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a Character[]
+2014-02-27 17:02:52,465 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.lang.Double;@6ac7efee
+2014-02-27 17:02:52,465 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'Double[]' value '[Ljava.lang.Double;@6ac7efee' to type 'Double[]'
+2014-02-27 17:02:52,465 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a Double[]
+2014-02-27 17:02:52,465 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.lang.Float;@5194807c
+2014-02-27 17:02:52,465 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'Float[]' value '[Ljava.lang.Float;@5194807c' to type 'Float[]'
+2014-02-27 17:02:52,465 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a Float[]
+2014-02-27 17:02:52,465 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.lang.Integer;@244c26a3
+2014-02-27 17:02:52,465 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'Integer[]' value '[Ljava.lang.Integer;@244c26a3' to type 'Integer[]'
+2014-02-27 17:02:52,465 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a Integer[]
+2014-02-27 17:02:52,465 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.lang.Long;@6d79924e
+2014-02-27 17:02:52,465 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'Long[]' value '[Ljava.lang.Long;@6d79924e' to type 'Long[]'
+2014-02-27 17:02:52,465 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a Long[]
+2014-02-27 17:02:52,465 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.lang.Short;@5632d361
+2014-02-27 17:02:52,465 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'Short[]' value '[Ljava.lang.Short;@5632d361' to type 'Short[]'
+2014-02-27 17:02:52,465 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a Short[]
+2014-02-27 17:02:52,465 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.lang.String;@78299767
+2014-02-27 17:02:52,465 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'String[]' value '[Ljava.lang.String;@78299767' to type 'String[]'
+2014-02-27 17:02:52,465 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a String[]
+2014-02-27 17:02:52,465 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.lang.Class;@729328d2
+2014-02-27 17:02:52,466 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'Class[]' value '[Ljava.lang.Class;@729328d2' to type 'Class[]'
+2014-02-27 17:02:52,466 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a Class[]
+2014-02-27 17:02:52,466 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.util.Date;@2672997
+2014-02-27 17:02:52,466 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'Date[]' value '[Ljava.util.Date;@2672997' to type 'Date[]'
+2014-02-27 17:02:52,466 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a Date[]
+2014-02-27 17:02:52,466 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.util.Calendar;@362586ec
+2014-02-27 17:02:52,466 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'Calendar[]' value '[Ljava.util.Calendar;@362586ec' to type 'Calendar[]'
+2014-02-27 17:02:52,466 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a Calendar[]
+2014-02-27 17:02:52,466 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.io.File;@a4cccb6
+2014-02-27 17:02:52,466 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'java.io.File[]' value '[Ljava.io.File;@a4cccb6' to type 'java.io.File[]'
+2014-02-27 17:02:52,466 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a java.io.File[]
+2014-02-27 17:02:52,466 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.sql.Date;@1a2cca11
+2014-02-27 17:02:52,466 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@1a2cca11' to type 'java.sql.Date[]'
+2014-02-27 17:02:52,466 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a java.sql.Date[]
+2014-02-27 17:02:52,466 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.sql.Time;@2da8db57
+2014-02-27 17:02:52,466 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@2da8db57' to type 'java.sql.Time[]'
+2014-02-27 17:02:52,466 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a java.sql.Time[]
+2014-02-27 17:02:52,466 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.sql.Timestamp;@35318a52
+2014-02-27 17:02:52,466 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@35318a52' to type 'java.sql.Timestamp[]'
+2014-02-27 17:02:52,466 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a java.sql.Timestamp[]
+2014-02-27 17:02:52,466 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.net.URL;@148503ce
+2014-02-27 17:02:52,466 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'java.net.URL[]' value '[Ljava.net.URL;@148503ce' to type 'java.net.URL[]'
+2014-02-27 17:02:52,466 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a java.net.URL[]
+2014-02-27 17:02:52,475 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.ConvertUtils] Convert string 'SERIALNUMBER123.ericsson.com' to class 'java.lang.String'
+2014-02-27 17:02:52,475 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.StringConverter] Converting 'String' value 'SERIALNUMBER123.ericsson.com' to type 'String'
+2014-02-27 17:02:52,475 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.ConvertUtils] Convert string 'This is serious business integration is in progress' to class 'java.lang.String'
+2014-02-27 17:02:52,475 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.StringConverter] Converting 'String' value 'This is serious business integration is in progress' to type 'String'
+2014-02-27 17:02:52,475 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.ConvertUtils] Convert string 'SUCCESS' to class 'java.lang.String'
+2014-02-27 17:02:52,476 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.StringConverter] Converting 'String' value 'SUCCESS' to type 'String'
+2014-02-27 17:02:52,500 [endToEndPerformance] [INFO] [se.ericsson.jcat.fw.ng.logging.writers.HtmlLogWriterNG] New file: C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target/Jcat_LOGS\1_verifyAutoIntegrationEndToEndSC2.log.html
+2014-02-27 17:02:52,510 [endToEndPerformance] [INFO] [se.ericsson.jcat.fw.ng.logging.writers.HtmlLogWriterNG] <b><font color="blue">TC: Verify ai-web and ai-core read, write and delete works fine using server sc2
+CONTEXT: null VUSERS: 1</font></b>
+2014-02-27 17:02:52,511 [endToEndPerformance] [INFO] [se.ericsson.jcat.fw.ng.logging.writers.HtmlLogWriterNG] <b><font color="blue">TC ID: taftest-aicore-func-6</font></b>
+2014-02-27 17:02:52,511 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.execution.TORTestCaseListener] Processing EndToEndTest.verifyAutoIntegrationEndToEndSC2(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ericsson.cifwk.taf.oasis.test.cases.EndToEndTest@3f2bcedd]SERIALNUMBER123.ericsson.com This is serious business integration is in progress SUCCESS  1059835613
+2014-02-27 17:02:52,532 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.execution.TORTestCaseListener] Current CONTEXT updates API
+2014-02-27 17:02:52,533 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.execution.TORTestCaseListener] Current VUSERS updates 1
+
+
+Tool base uri: HTTPS://127.0.0.1:18447
+2014-02-27 17:02:52,935 [endToEndPerformance] [DEBUG] [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: best-match
+2014-02-27 17:02:52,951 [endToEndPerformance] [DEBUG] [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+2014-02-27 17:02:52,953 [endToEndPerformance] [DEBUG] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {s}->https://127.0.0.1:18447][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2014-02-27 17:02:52,980 [endToEndPerformance] [DEBUG] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {s}->https://127.0.0.1:18447][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2014-02-27 17:02:52,989 [endToEndPerformance] [DEBUG] [org.apache.http.impl.execchain.MainClientExec] Opening connection {s}->https://127.0.0.1:18447
+2014-02-27 17:02:53,434 [endToEndPerformance] [DEBUG] [org.apache.http.conn.HttpClientConnectionManager] Connecting to /127.0.0.1:18447
+2014-02-27 17:03:56,454 [endToEndPerformance] [DEBUG] [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: Shutdown connection
+2014-02-27 17:03:56,455 [endToEndPerformance] [DEBUG] [org.apache.http.impl.execchain.MainClientExec] Connection discarded
+2014-02-27 17:03:56,457 [endToEndPerformance] [DEBUG] [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: Close connection
+2014-02-27 17:03:56,458 [endToEndPerformance] [DEBUG] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {s}->https://127.0.0.1:18447][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2014-02-27 17:03:56,507 [endToEndPerformance] [INFO] [se.ericsson.jcat.fw.ng.listeners.JcatTestListener] *** OVERALL TESTCASE RESULT ***
+2014-02-27 17:03:56,512 [endToEndPerformance] [ERROR] [se.ericsson.jcat.fw.ng.listeners.JcatTestListener] Assertion failed - Uncaught exception during testcase: java.lang.IllegalStateException: Connection was aborted
+2014-02-27 17:03:56,515 [endToEndPerformance] [ERROR] [se.ericsson.jcat.fw.ng.listeners.JcatTestListener] Stack trace
+java.lang.IllegalStateException: Connection was aborted
+	at com.ericsson.cifwk.taf.tools.http.impl.RequestBuilderImpl.executeMethod(RequestBuilderImpl.java:227)
+	at com.ericsson.cifwk.taf.tools.http.impl.RequestBuilderImpl.get(RequestBuilderImpl.java:139)
+	at com.ericsson.cifwk.taf.tools.http.impl.HttpToolImpl.get(HttpToolImpl.java:139)
+	at com.ericsson.cifwk.taf.oasis.test.cases.EndToEndTest.runE2ETest(EndToEndTest.java:185)
+	at com.ericsson.cifwk.taf.oasis.test.cases.EndToEndTest.verifyAutoIntegrationEndToEndSC2(EndToEndTest.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at com.ericsson.cifwk.taf.testng.WorkerProxy.run(WorkerProxy.java:20)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.ericsson.cifwk.taf.testng.Invoker.invoke(Invoker.java:21)
+	at com.ericsson.cifwk.taf.testng.TafTestRunner.invokePrivateRun(TafTestRunner.java:228)
+	at com.ericsson.cifwk.taf.testng.TafTestRunner.runSimple(TafTestRunner.java:105)
+	at com.ericsson.cifwk.taf.testng.TafTestRunner.run(TafTestRunner.java:94)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: javax.net.ssl.SSLHandshakeException: Remote host closed connection during handshake
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:946)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1312)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1339)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1323)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:261)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:118)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:357)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:218)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:194)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:85)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at com.ericsson.cifwk.taf.tools.http.impl.RequestBuilderImpl.executeMethod(RequestBuilderImpl.java:216)
+	... 33 more
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at sun.security.ssl.InputRecord.read(InputRecord.java:482)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:927)
+	... 47 more
+2014-02-27 17:03:56,532 [endToEndPerformance] [INFO] [se.ericsson.jcat.fw.ng.listeners.JcatTestListener] Event Check Passed
+2014-02-27 17:03:56,663 [endToEndPerformance] [INFO] [com.ericsson.cifwk.taf.handlers.netsim.spi.NetSimTestListener] NetSim test listener: closing all open NetSim sessions
+2014-02-27 17:03:56,684 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.handlers.netsim.NetSimCommandHandler] NetSim context registry initialized
+2014-02-27 17:03:56,689 [endToEndPerformance] [INFO] [com.ericsson.cifwk.taf.handlers.netsim.spi.NetSimTestListener] NetSim test listener: all open NetSim sessions closed
+2014-02-27 17:03:56,690 [endToEndPerformance] [INFO] [com.ericsson.cifwk.taf.ui.spi.UiTestListener] closing UI windows that are still open
+2014-02-27 17:03:56,694 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.ui.UI] UI window provider registry initialized
+2014-02-27 17:03:56,717 [endToEndPerformance] [INFO] [com.ericsson.cifwk.taf.ui.spi.UiTestListener] all UI windows closed
+2014-02-27 17:03:57,302 [endToEndPerformance] [INFO] [com.ericsson.cifwk.taf.handlers.netsim.spi.NetSimTestListener] NetSim test listener: closing all open NetSim sessions
+2014-02-27 17:03:57,302 [endToEndPerformance] [INFO] [com.ericsson.cifwk.taf.handlers.netsim.spi.NetSimTestListener] NetSim test listener: all open NetSim sessions closed
+2014-02-27 17:03:57,303 [endToEndPerformance] [INFO] [com.ericsson.cifwk.taf.ui.spi.UiTestListener] closing UI windows that are still open
+2014-02-27 17:03:57,303 [endToEndPerformance] [INFO] [com.ericsson.cifwk.taf.ui.spi.UiTestListener] all UI windows closed
+2014-02-27 17:03:57,308 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.SuiteExecutionHelper] Finished execution of endToEndPerformance
+
+===============================================
+endToEndPerformance
+Total tests run: 1, Failures: 1, Skips: 0
+===============================================
+
+2014-02-27 17:03:57,321 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] Stopping monitors
+2014-02-27 17:03:57,416 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [se.ericsson.jcat.fw.ng.logging.writers.JenkinsLogWriterNG] Report generated: C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target/Jcat_LOGS\jenkins.xml
+2014-02-27 17:03:57,452 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [se.ericsson.jcat.fw.ng.listeners.JcatSuiteListener] The HTML logs are in: C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target/Jcat_LOGS\index.html
+2014-02-27 17:03:57,453 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [se.ericsson.jcat.fw.ng.listeners.JcatSuiteListener] The Console log is: C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target/Jcat_LOGS\console.log
+2014-02-27 17:03:57,453 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [com.ericsson.cifwk.taf.TorNgSuiteListener] No monitor data to be put on HTML report
+2014-02-27 17:03:57,710 [Finalizer] [DEBUG] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection manager is shutting down
+2014-02-27 17:03:57,710 [Finalizer] [DEBUG] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection manager shut down
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ ai-core-test-execution ---
+[INFO] Installing C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\pom.xml to C:\Users\emacgma\.m2\repository\com\ericsson\nms\security\taf\ai-core-test-execution\1.0.1-SNAPSHOT\ai-core-test-execution-1.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] ai-core-testware .................................. SUCCESS [0.824s]
+[INFO] ai-core-testcases ................................. SUCCESS [6.650s]
+[INFO] ai-core-test-execution ............................ SUCCESS [1:25.192s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1:33.188s
+[INFO] Finished at: Thu Feb 27 17:03:57 GMT 2014
+[INFO] Final Memory: 60M/515M
+[INFO] ------------------------------------------------------------------------
+2014-02-27 17:03:58,976 [Thread-3] [DEBUG] [com.ericsson.cifwk.taf.utils.ScheduledCleaner] Cleaning after run [tmp\files, C:\Users\emacgma\git_repos\ai-core-testware\tmp\rest\restOutput, C:\Users\emacgma\git_repos\ai-core-testware\tmp\rest]
+2014-02-27 17:03:58,957 [Thread-5] [DEBUG] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] Stopping monitors

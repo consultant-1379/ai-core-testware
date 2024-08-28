@@ -1,0 +1,610 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.ericsson.nms.security.taf:ai-core-test-execution:pom:1.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 115, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ line 123, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] ai-core-testware
+[INFO] ai-core-testcases
+[INFO] ai-core-test-execution
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ai-core-testware 1.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ ai-core-testware ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ ai-core-testware ---
+[INFO] Installing C:\Users\emacgma\git_repos\ai-core-testware\pom.xml to C:\Users\emacgma\.m2\repository\com\ericsson\nms\security\taf\ai-core-testware\1.0.1-SNAPSHOT\ai-core-testware-1.0.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ai-core-testcases 1.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ ai-core-testcases ---
+[INFO] Deleting C:\Users\emacgma\git_repos\ai-core-testware\ai-core-testcases\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ai-core-testcases ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 78 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ ai-core-testcases ---
+[INFO] Compiling 8 source files to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-testcases\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ai-core-testcases ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\emacgma\git_repos\ai-core-testware\ai-core-testcases\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ ai-core-testcases ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ ai-core-testcases ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ ai-core-testcases ---
+[INFO] Building jar: C:\Users\emacgma\git_repos\ai-core-testware\ai-core-testcases\target\ai-core-testcases-1.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ ai-core-testcases ---
+[INFO] Installing C:\Users\emacgma\git_repos\ai-core-testware\ai-core-testcases\target\ai-core-testcases-1.0.1-SNAPSHOT.jar to C:\Users\emacgma\.m2\repository\com\ericsson\nms\security\taf\ai-core-testcases\1.0.1-SNAPSHOT\ai-core-testcases-1.0.1-SNAPSHOT.jar
+[INFO] Installing C:\Users\emacgma\git_repos\ai-core-testware\ai-core-testcases\pom.xml to C:\Users\emacgma\.m2\repository\com\ericsson\nms\security\taf\ai-core-testcases\1.0.1-SNAPSHOT\ai-core-testcases-1.0.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ai-core-test-execution 1.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ ai-core-test-execution ---
+[INFO] Deleting C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.5.1:analyze-dep-mgt (default) @ ai-core-test-execution ---
+[INFO] Found Resolved Dependency / DependencyManagement mismatches:
+[INFO]    None
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.5.1:unpack (unpack-suite-xml) @ ai-core-test-execution ---
+[INFO] Configured Artifact: com.ericsson.nms.security.taf:ai-core-testcases:1.0.1-SNAPSHOT:jar
+[INFO] Unpacking C:\Users\emacgma\git_repos\ai-core-testware\ai-core-testcases\target\ai-core-testcases-1.0.1-SNAPSHOT.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\taf with includes "**suites/*.xml" and excludes "**/*.class"
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.5.1:copy-dependencies (taf:copy-dependencies) @ ai-core-test-execution ---
+[INFO] Copying taf-ui-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\taf-ui.jar
+[INFO] Copying data-handler-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\data-handler.jar
+[INFO] Copying taf-ui-sikuli-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\taf-ui-sikuli.jar
+[INFO] Copying taf-ui-selenium-drivers-2.39.0-chrome-win-x64.zip to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\taf-ui-selenium-drivers-chrome-win-x64.zip
+[INFO] Copying ai-core-testcases-1.0.1-SNAPSHOT.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\ai-core-testcases.jar
+[INFO] Copying curl-rest-tool-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\curl-rest-tool.jar
+[INFO] Copying taf-core-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\taf-core.jar
+[INFO] Copying ui-taf-sdk-2.0.11.pom to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\ui-taf-sdk.pom
+[INFO] Copying taf-ui-selenium-drivers-2.39.0-ie-win-x64.zip to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\taf-ui-selenium-drivers-ie-win-x64.zip
+[INFO] Copying taf-performance-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\taf-performance.jar
+[INFO] Copying all-taf-sdk-2.0.11.pom to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\all-taf-sdk.pom
+[INFO] Copying testng-runner-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\testng-runner.jar
+[INFO] Copying http-tool-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\http-tool.jar
+[INFO] Copying jcat-runner-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\jcat-runner.jar
+[INFO] Copying taf-api-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\taf-api.jar
+[INFO] Copying taf-netsim-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\taf-netsim.jar
+[INFO] Copying tal-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\tal.jar
+[INFO] Copying taf-jboss-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\taf-jboss.jar
+[INFO] Copying j2ssh-cli-tool-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\j2ssh-cli-tool.jar
+[INFO] Copying tafutils-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\tafutils.jar
+[INFO] Copying calculator-api-1.0-SNAPSHOT.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\calculator-api.jar
+[INFO] Copying ossrc-topology-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\ossrc-topology.jar
+[INFO] Copying ai-core-api-1.0.3.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\ai-core-api.jar
+[INFO] Copying jsch-cli-tool-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\jsch-cli-tool.jar
+[INFO] Copying taf-ui-selenium-2.0.11.jar to C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target\lib\taf-ui-selenium.jar
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default) @ ai-core-test-execution >>>
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.5.1:analyze-dep-mgt (default) @ ai-core-test-execution ---
+[INFO] Found Resolved Dependency / DependencyManagement mismatches:
+[INFO]    None
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (default) @ ai-core-test-execution <<<
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:java (default) @ ai-core-test-execution ---
+2014-02-27 13:06:14,286 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [com.ericsson.cifwk.taf.management.TafManager] Try to find end stop old running TAF[com.ericsson.cifwk.taf:testcases:0]
+2014-02-27 13:06:15,655 [com.ericsson.cifwk.taf.Taf.main()] [ERROR] [com.ericsson.cifwk.taf.management.TafManager] Can't connect to JMX on VM org.codehaus.plexus.classworlds.launcher.Launcher clean install -Dsuites=endToEnd.xml:16964
+2014-02-27 13:06:15,655 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [com.ericsson.cifwk.taf.management.TafManager] Start new JMX for TAF[com.ericsson.cifwk.taf:testcases:0]
+2014-02-27 13:06:15,663 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [com.ericsson.cifwk.taf.management.TafBootstrap] Initializing TAF plugin : JCatTafPlugin
+2014-02-27 13:06:16,514 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [com.ericsson.cifwk.taf.management.TafBootstrap] Initializing TAF plugin : TestNgPlugin
+2014-02-27 13:06:16,535 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [com.ericsson.cifwk.taf.management.TafBootstrap] Initializing TAF plugin : NetSimTafPlugin
+2014-02-27 13:06:16,558 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [com.ericsson.cifwk.taf.management.TafBootstrap] Initializing TAF plugin : PerformancePlugin
+2014-02-27 13:06:16,603 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [com.ericsson.cifwk.taf.management.TafBootstrap] Initializing TAF plugin : UiTafPlugin
+2014-02-27 13:06:16,861 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.TorNgSuiteListener] Starting pre-run cleaning
+2014-02-27 13:06:18,834 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ScheduledCleaner] Added C:\Users\emacgma\git_repos\ai-core-testware\tmp to clean on start
+2014-02-27 13:06:18,921 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [se.ericsson.jcat.fw.ng.listeners.JcatSuiteListener] Initializing JCAT framework...
+2014-02-27 13:06:18,921 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [se.ericsson.jcat.fw.ng.listeners.JcatSuiteListener] Current logging level: DEBUG
+2014-02-27 13:06:18,921 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [se.ericsson.jcat.fw.ng.listeners.JcatSuiteListener] Reading properties...
+2014-02-27 13:06:18,933 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [se.ericsson.jcat.fw.ng.listeners.JcatSuiteListener] Read properties from: 
+2014-02-27 13:06:18,933 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [se.ericsson.jcat.fw.ng.listeners.JcatSuiteListener] Creating logging structure...
+2014-02-27 13:06:18,933 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [se.ericsson.jcat.fw.ng.listeners.JcatSuiteListener] legacylogging is turned on
+2014-02-27 13:06:18,936 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [se.ericsson.jcat.fw.logging.writers.LogWriterUtils] Created directory: C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target/Jcat_LOGS
+2014-02-27 13:06:18,937 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [se.ericsson.jcat.fw.ng.listeners.JcatSuiteListener] The log dir will be : C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target/Jcat_LOGS
+2014-02-27 13:06:18,937 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [se.ericsson.jcat.fw.logging.writers.LogWriterUtils] Extracting Dtree skeleton to: C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target/Jcat_LOGS
+2014-02-27 13:06:19,349 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [se.ericsson.jcat.fw.ng.listeners.JcatSuiteListener] Registering traffic plugins if any
+2014-02-27 13:06:19,355 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [se.ericsson.jcat.fw.ng.listeners.JcatSuiteListener] Initiating registered traffic plugins if any
+2014-02-27 13:06:19,358 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [se.ericsson.jcat.fw.ng.listeners.JcatSuiteListener] JCAT Bundle(TestNG Based) Version: R3B02
+2014-02-27 13:06:20,456 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] Stopping all monitors in Shutdown Hook
+2014-02-27 13:06:20,642 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ScheduledCleaner] Added tmp\files to clean on start
+2014-02-27 13:06:24,362 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.tal.implementation.rest.curl.CurlRunHelper] Starting curl for [OPERATION:GET, ENCODING:URL, PARAMETERS:[:], HOST:eselivm2v238l.lmera.ericsson.se, PORT:8081, URI:nexus/content/repositories/releases/com/ericsson/cifwk/ERICtaf_util/maven-metadata.xml, COOKIE_MANAGEMENT:true, SSL_IGNORE:true, FOLLOW_REDIRECTION:true, PROTOCOL:HTTP, CONNECTION_TIMEOUT:5, HEADER_ENTRIES:[Connection: close], AUTHENTICATION_CREDENTIALS:null, NO_PROXY:true, VUSERID:534198553981260]
+2014-02-27 13:06:24,801 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.tal.implementation.rest.curl.CurlRunHelper] Curl finished with status 0 and output response size: 2071 and error response size: 317  within 450 miliseconds
+2014-02-27 13:06:24,912 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [com.ericsson.cifwk.taf.TorNgSuiteListener] TAF version: 2.0.11
+2014-02-27 13:06:24,914 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] Starting monitors for run
+2014-02-27 13:06:24,915 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.DataHandler] Getting monitor configuration
+2014-02-27 13:06:25,097 [ForkJoinPool-2-worker-3] [WARN] [com.ericsson.cifwk.taf.data.postprocessor.AbstractDataPostProcessor] Property line monitor.plot_size_limit=200000 is incorrect for monitor configuration 
+2014-02-27 13:06:25,141 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.postprocessor.MonitorConfigurationDataPostProcessor] Monitor Value for Monitor aslogmon = [defaultTimeout:120000, minWaitTime:100, checkInterval:100, collectionTime:30]
+2014-02-27 13:06:25,149 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.postprocessor.MonitorConfigurationDataPostProcessor] Created monitor configuration <com.ericsson.cifwk.taf.data.MonitorConfiguration@79802415 attributes=[defaultTimeout:120000, minWaitTime:100, checkInterval:100, collectionTime:30, name:aslogmon]>
+2014-02-27 13:06:25,149 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.postprocessor.MonitorConfigurationDataPostProcessor] Monitor Value for Monitor mem = [process:[taf:java taf-core], dont_plot:pages, collectionTime:30]
+2014-02-27 13:06:25,150 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.postprocessor.MonitorConfigurationDataPostProcessor] Created monitor configuration <com.ericsson.cifwk.taf.data.MonitorConfiguration@5e776368 attributes=[process:[taf:java taf-core], dont_plot:pages, collectionTime:30, name:mem]>
+2014-02-27 13:06:25,150 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.postprocessor.MonitorConfigurationDataPostProcessor] Monitor Value for Monitor oslogmon = [checkInterval:100, defaultTimeout:120000, collectionTime:30, minWaitTime:100]
+2014-02-27 13:06:25,150 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.postprocessor.MonitorConfigurationDataPostProcessor] Created monitor configuration <com.ericsson.cifwk.taf.data.MonitorConfiguration@701f714b attributes=[checkInterval:100, defaultTimeout:120000, collectionTime:30, minWaitTime:100, name:oslogmon]>
+2014-02-27 13:06:25,150 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.postprocessor.MonitorConfigurationDataPostProcessor] Monitor Value for Monitor tool = [dont_plot:vusers result tc_name, collectionTime:action]
+2014-02-27 13:06:25,151 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.postprocessor.MonitorConfigurationDataPostProcessor] Created monitor configuration <com.ericsson.cifwk.taf.data.MonitorConfiguration@20472c6f attributes=[dont_plot:vusers result tc_name, collectionTime:action, name:tool]>
+2014-02-27 13:06:25,151 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.postprocessor.MonitorConfigurationDataPostProcessor] Monitor Value for Monitor asmbean = [collectionTime:30, mbean:[Threading:[name:java.lang:type=Threading, forget:CurrentThreadCpuTimeSupported, ObjectMonitorUsageSupported, SynchronizerUsageSupported, ThreadAllocatedMemoryEnabled, ThreadAllocatedMemorySupported, ThreadContentionMonitoringEnabled, ThreadContentionMonitoringSupported, ThreadCpuTimeEnabled, ThreadCpuTimeSupported], Memory:[forget:memorypool, Verbose, name:java.lang:type=Memory]]]
+2014-02-27 13:06:25,151 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.postprocessor.MonitorConfigurationDataPostProcessor] Created monitor configuration <com.ericsson.cifwk.taf.data.MonitorConfiguration@20b63bf7 attributes=[collectionTime:30, mbean:[Threading:[name:java.lang:type=Threading, forget:CurrentThreadCpuTimeSupported, ObjectMonitorUsageSupported, SynchronizerUsageSupported, ThreadAllocatedMemoryEnabled, ThreadAllocatedMemorySupported, ThreadContentionMonitoringEnabled, ThreadContentionMonitoringSupported, ThreadCpuTimeEnabled, ThreadCpuTimeSupported], Memory:[forget:memorypool, Verbose, name:java.lang:type=Memory]], name:asmbean]>
+2014-02-27 13:06:25,151 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.postprocessor.MonitorConfigurationDataPostProcessor] Monitor Value for Monitor net = [collectionTime:30]
+2014-02-27 13:06:25,152 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.postprocessor.MonitorConfigurationDataPostProcessor] Created monitor configuration <com.ericsson.cifwk.taf.data.MonitorConfiguration@1c1ae5e8 attributes=[collectionTime:30, name:net]>
+2014-02-27 13:06:25,152 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.postprocessor.MonitorConfigurationDataPostProcessor] Monitor Value for Monitor cpu = [collectionTime:30]
+2014-02-27 13:06:25,153 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.postprocessor.MonitorConfigurationDataPostProcessor] Created monitor configuration <com.ericsson.cifwk.taf.data.MonitorConfiguration@5359427e attributes=[collectionTime:30, name:cpu]>
+2014-02-27 13:06:25,153 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.postprocessor.MonitorConfigurationDataPostProcessor] Processed monitors list [aslogmon: false, mem: false, oslogmon: false, tool: false, asmbean: false, net: false, cpu: false]
+2014-02-27 13:06:25,156 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] Found monitor configurations [aslogmon: false, mem: false, oslogmon: false, tool: false, asmbean: false, net: false, cpu: false]
+2014-02-27 13:06:25,158 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] Getting monitor classes
+2014-02-27 13:06:25,569 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] Found monitor definition files [C:\Users\emacgma\git_repos\ai-core-testware\tmp\files/taf-core.jar/META-INF/services/monitors, C:\Users\emacgma\git_repos\ai-core-testware\tmp\files\taf-core.jar\META-INF\services\monitors]
+2014-02-27 13:06:25,692 [com.ericsson.cifwk.taf.Taf.main()] [ERROR] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] No monitor implemenation for aslogmon found or monitor started already. Ignoring.
+2014-02-27 13:06:25,693 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] Getting monitor classes
+2014-02-27 13:06:25,712 [com.ericsson.cifwk.taf.Taf.main()] [ERROR] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] No monitor implemenation for mem found or monitor started already. Ignoring.
+2014-02-27 13:06:25,712 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] Getting monitor classes
+2014-02-27 13:06:25,725 [com.ericsson.cifwk.taf.Taf.main()] [ERROR] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] No monitor implemenation for oslogmon found or monitor started already. Ignoring.
+2014-02-27 13:06:25,725 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] Getting monitor classes
+2014-02-27 13:06:25,741 [com.ericsson.cifwk.taf.Taf.main()] [ERROR] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] No monitor implemenation for tool found or monitor started already. Ignoring.
+2014-02-27 13:06:25,741 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] Getting monitor classes
+2014-02-27 13:06:25,751 [com.ericsson.cifwk.taf.Taf.main()] [ERROR] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] No monitor implemenation for asmbean found or monitor started already. Ignoring.
+2014-02-27 13:06:25,751 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] Getting monitor classes
+2014-02-27 13:06:25,767 [com.ericsson.cifwk.taf.Taf.main()] [ERROR] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] No monitor implemenation for net found or monitor started already. Ignoring.
+2014-02-27 13:06:25,767 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] Getting monitor classes
+2014-02-27 13:06:25,780 [com.ericsson.cifwk.taf.Taf.main()] [ERROR] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] No monitor implemenation for cpu found or monitor started already. Ignoring.
+2014-02-27 13:06:25,940 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.execution.TestNGAnnotationTransformer] Method public void com.ericsson.cifwk.taf.oasis.test.cases.EndToEndTest.testvusers(java.lang.String,java.lang.String,java.lang.String) will be called for 1 vusers and 1 contexts
+Found multinode deplyoment in host.properties.
+2014-02-27 13:06:28,993 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.HostTunnelHelper] Starting tunnel for sc2jbi
+2014-02-27 13:06:29,017 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.HostTunnelHelper] Starting tunnel for sc2jbi using remote ip 192.168.0.90, gateway as SSH host and 127.0.0.1 as start of the tunnel
+2014-02-27 13:06:29,063 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.HostTunnelHelper] Creating tunnel using SSH host gateway
+2014-02-27 13:06:29,167 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshTunnel] Creating configuration with name local_14451_to_192.168.0.90:4447
+2014-02-27 13:06:29,169 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshConnectionsHelper] Creating new connections to 10.45.200.115 on port 22 for user root with pass shroot
+2014-02-27 13:06:29,203 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshConnectionsHelper] Connections updated: [10.45.200.115:root:22:shroot:[com.sshtools.j2ssh.SshClient@2df3a4]]
+2014-02-27 13:06:29,203 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshConnectionsHelper] Connecting to 10.45.200.115 on port 22
+2014-02-27 13:06:29,532 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshConnectionsHelper] Connection started. Current state: 4
+2014-02-27 13:06:29,561 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshConnectionsHelper] Authentication finished with status COMPLETE
+2014-02-27 13:06:29,573 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshTunnel] Creating configuration with name local_18447_to_192.168.0.90:8443
+2014-02-27 13:06:29,575 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshTunnel] Creating configuration with name local_18084_to_192.168.0.90:8080
+2014-02-27 13:06:29,578 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshTunnel] Creating configuration with name local_20003_to_192.168.0.90:9999
+2014-02-27 13:06:29,580 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshTunnel] Creating configuration with name local_10026_to_192.168.0.90:22
+2014-02-27 13:06:29,581 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.HostTunnelHelper] Tunnel for sc2jbi started. Overriding properties with ports [RMI:14451, HTTPS:18447, HTTP:18084, JMX:20003, SSH:10026]
+2014-02-27 13:06:29,949 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.HostTunnelHelper] Starting tunnel for sc1jbi
+2014-02-27 13:06:29,949 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.HostTunnelHelper] Starting tunnel for sc1jbi using remote ip 192.168.0.89, gateway as SSH host and 127.0.0.1 as start of the tunnel
+2014-02-27 13:06:29,949 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.HostTunnelHelper] Creating tunnel using SSH host gateway
+2014-02-27 13:06:30,050 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshTunnel] Creating configuration with name local_20000_to_192.168.0.89:9999
+2014-02-27 13:06:30,052 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshTunnel] Creating configuration with name local_10023_to_192.168.0.89:22
+2014-02-27 13:06:30,054 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshTunnel] Creating configuration with name local_14448_to_192.168.0.89:4447
+2014-02-27 13:06:30,067 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshTunnel] Creating configuration with name local_18444_to_192.168.0.89:8443
+2014-02-27 13:06:30,069 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshTunnel] Creating configuration with name local_18081_to_192.168.0.89:8080
+2014-02-27 13:06:30,071 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.data.HostTunnelHelper] Tunnel for sc1jbi started. Overriding properties with ports [JMX:20000, SSH:10023, RMI:14448, HTTPS:18444, HTTP:18081]
+Host: sc1jbi
+Type: JBOSS
+Ip: 127.0.0.1
+OrigIp: 192.168.0.89
+RealIp: 192.168.0.89
+User: guest
+Pass: guestp
+TunnelPortOffset: 1
+Parent: gateway
+Nodes: []
+
+Host: sc2jbi
+Type: JBOSS
+Ip: 127.0.0.1
+OrigIp: 192.168.0.90
+RealIp: 192.168.0.90
+User: guest
+Pass: guestp
+TunnelPortOffset: 4
+Parent: gateway
+Nodes: []
+
+Host: sc1
+Type: SC1
+Ip: 10.45.200.115
+OrigIp: null
+RealIp: 10.45.200.115
+User: root
+Pass: litpc0b6lEr
+TunnelPortOffset: null
+Parent: gateway
+Nodes: []
+
+Host: sc2
+Type: SC2
+Ip: 10.45.200.115
+OrigIp: null
+RealIp: 10.45.200.115
+User: root
+Pass: litpc0b6lEr
+TunnelPortOffset: null
+Parent: gateway
+Nodes: []
+
+2014-02-27 13:06:30,784 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.execution.TestNGAnnotationTransformer] Method public void com.ericsson.cifwk.taf.oasis.test.cases.EndToEndTest.verifyAutoIntegrationEndToEndSC2(java.lang.String,java.lang.String,java.lang.String) will be called for 1 vusers and 1 contexts
+2014-02-27 13:06:30,785 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.execution.TestNGAnnotationTransformer] Method public void com.ericsson.cifwk.taf.oasis.test.cases.EndToEndTest.verifyAutoIntegrationEndToEndSC1(java.lang.String,java.lang.String,java.lang.String) will be called for 1 vusers and 1 contexts
+2014-02-27 13:06:30,786 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.execution.TestNGAnnotationTransformer] Method public void com.ericsson.cifwk.taf.oasis.test.cases.EndToEndTest.verifyAutoIntegrationEndToEndClusterSC1SC2(java.lang.String,java.lang.String,java.lang.String) will be called for 1 vusers and 1 contexts
+2014-02-27 13:06:30,786 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.execution.TestNGAnnotationTransformer] Method public void com.ericsson.cifwk.taf.oasis.test.cases.EndToEndTest.verifyAutoIntegrationEndToEndClusterSC2SC1(java.lang.String,java.lang.String,java.lang.String) will be called for 1 vusers and 1 contexts
+2014-02-27 13:06:30,787 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.execution.TestNGAnnotationTransformer] Method public void com.ericsson.cifwk.taf.oasis.test.cases.AICoreTest.verifyAICoreWriteFiles(java.lang.String,java.lang.String,java.lang.String) will be called for 1 vusers and 1 contexts
+2014-02-27 13:06:30,788 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.execution.TestNGAnnotationTransformer] Method public void com.ericsson.cifwk.taf.oasis.test.cases.AICoreTest.verifyAICoreDeleteFiles(java.lang.String,java.lang.String,java.lang.String) will be called for 1 vusers and 1 contexts
+2014-02-27 13:06:30,789 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.execution.TestNGAnnotationTransformer] Method public void com.ericsson.cifwk.taf.oasis.test.cases.AICoreTest.verifyAICoreDeleteNonExistingFiles(java.lang.String,java.lang.String,java.lang.String) will be called for 1 vusers and 1 contexts
+2014-02-27 13:06:30,793 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.execution.TestNGAnnotationTransformer] Method public void com.ericsson.cifwk.taf.oasis.test.cases.AICoreTest.verifyAICoreConcurrentWritingFilesAsExpected(java.lang.String,java.lang.String,java.lang.String) will be called for 2 vusers and 1 contexts
+2014-02-27 13:06:30,794 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.execution.TestNGAnnotationTransformer] Method public void com.ericsson.cifwk.taf.oasis.test.cases.AICoreTest.verifyAICoreWriteFilesMultipleCalls(java.lang.String,java.lang.String,java.lang.String) will be called for 1 vusers and 1 contexts
+2014-02-27 13:06:30,967 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.SuiteExecutionHelper] Requesting run for endToEndPerformance with parallel: true
+2014-02-27 13:06:30,976 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.SuiteExecutionHelper] Parallel run for endToEndPerformance in progress
+2014-02-27 13:06:31,619 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.BooleanConverter] Setting default value: false
+2014-02-27 13:06:31,619 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.BooleanConverter] Converting 'Boolean' value 'false' to type 'Boolean'
+2014-02-27 13:06:31,619 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.BooleanConverter]     No conversion required, value is already a Boolean
+2014-02-27 13:06:31,622 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ByteConverter] Setting default value: 0
+2014-02-27 13:06:31,622 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ByteConverter] Converting 'Integer' value '0' to type 'Byte'
+2014-02-27 13:06:31,622 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ByteConverter]     Converted to Byte value '0'
+2014-02-27 13:06:31,623 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.CharacterConverter] Setting default value:  
+2014-02-27 13:06:31,623 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.CharacterConverter] Converting 'Character' value ' ' to type 'Character'
+2014-02-27 13:06:31,623 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.CharacterConverter]     No conversion required, value is already a Character
+2014-02-27 13:06:31,624 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.DoubleConverter] Setting default value: 0
+2014-02-27 13:06:31,624 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.DoubleConverter] Converting 'Integer' value '0' to type 'Double'
+2014-02-27 13:06:31,624 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.DoubleConverter]     Converted to Double value '0.0'
+2014-02-27 13:06:31,624 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.FloatConverter] Setting default value: 0
+2014-02-27 13:06:31,625 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.FloatConverter] Converting 'Integer' value '0' to type 'Float'
+2014-02-27 13:06:31,625 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.FloatConverter]     Converted to Float value '0.0'
+2014-02-27 13:06:31,625 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.IntegerConverter] Setting default value: 0
+2014-02-27 13:06:31,625 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.IntegerConverter] Converting 'Integer' value '0' to type 'Integer'
+2014-02-27 13:06:31,625 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.IntegerConverter]     No conversion required, value is already a Integer
+2014-02-27 13:06:31,626 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.LongConverter] Setting default value: 0
+2014-02-27 13:06:31,626 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.LongConverter] Converting 'Integer' value '0' to type 'Long'
+2014-02-27 13:06:31,626 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.LongConverter]     Converted to Long value '0'
+2014-02-27 13:06:31,626 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ShortConverter] Setting default value: 0
+2014-02-27 13:06:31,626 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ShortConverter] Converting 'Integer' value '0' to type 'Short'
+2014-02-27 13:06:31,626 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ShortConverter]     Converted to Short value '0'
+2014-02-27 13:06:31,627 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.BigDecimalConverter] Setting default value: 0.0
+2014-02-27 13:06:31,627 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.BigDecimalConverter] Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+2014-02-27 13:06:31,627 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.BigDecimalConverter]     No conversion required, value is already a BigDecimal
+2014-02-27 13:06:31,628 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.BigIntegerConverter] Setting default value: 0
+2014-02-27 13:06:31,628 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.BigIntegerConverter] Converting 'BigInteger' value '0' to type 'BigInteger'
+2014-02-27 13:06:31,628 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.BigIntegerConverter]     No conversion required, value is already a BigInteger
+2014-02-27 13:06:31,628 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.BooleanConverter] Setting default value: false
+2014-02-27 13:06:31,628 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.BooleanConverter] Converting 'Boolean' value 'false' to type 'Boolean'
+2014-02-27 13:06:31,628 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.BooleanConverter]     No conversion required, value is already a Boolean
+2014-02-27 13:06:31,628 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ByteConverter] Setting default value: 0
+2014-02-27 13:06:31,628 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ByteConverter] Converting 'Integer' value '0' to type 'Byte'
+2014-02-27 13:06:31,628 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ByteConverter]     Converted to Byte value '0'
+2014-02-27 13:06:31,629 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.CharacterConverter] Setting default value:  
+2014-02-27 13:06:31,629 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.CharacterConverter] Converting 'Character' value ' ' to type 'Character'
+2014-02-27 13:06:31,629 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.CharacterConverter]     No conversion required, value is already a Character
+2014-02-27 13:06:31,629 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.DoubleConverter] Setting default value: 0
+2014-02-27 13:06:31,629 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.DoubleConverter] Converting 'Integer' value '0' to type 'Double'
+2014-02-27 13:06:31,629 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.DoubleConverter]     Converted to Double value '0.0'
+2014-02-27 13:06:31,629 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.FloatConverter] Setting default value: 0
+2014-02-27 13:06:31,629 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.FloatConverter] Converting 'Integer' value '0' to type 'Float'
+2014-02-27 13:06:31,629 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.FloatConverter]     Converted to Float value '0.0'
+2014-02-27 13:06:31,629 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.IntegerConverter] Setting default value: 0
+2014-02-27 13:06:31,629 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.IntegerConverter] Converting 'Integer' value '0' to type 'Integer'
+2014-02-27 13:06:31,629 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.IntegerConverter]     No conversion required, value is already a Integer
+2014-02-27 13:06:31,629 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.LongConverter] Setting default value: 0
+2014-02-27 13:06:31,629 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.LongConverter] Converting 'Integer' value '0' to type 'Long'
+2014-02-27 13:06:31,629 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.LongConverter]     Converted to Long value '0'
+2014-02-27 13:06:31,629 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ShortConverter] Setting default value: 0
+2014-02-27 13:06:31,629 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ShortConverter] Converting 'Integer' value '0' to type 'Short'
+2014-02-27 13:06:31,630 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ShortConverter]     Converted to Short value '0'
+2014-02-27 13:06:31,630 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.StringConverter] Setting default value: 
+2014-02-27 13:06:31,630 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.StringConverter] Converting 'String' value '' to type 'String'
+2014-02-27 13:06:31,638 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Z@8bf07e7
+2014-02-27 13:06:31,638 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'boolean[]' value '[Z@8bf07e7' to type 'boolean[]'
+2014-02-27 13:06:31,639 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a boolean[]
+2014-02-27 13:06:31,639 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [B@359fd32d
+2014-02-27 13:06:31,639 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'byte[]' value '[B@359fd32d' to type 'byte[]'
+2014-02-27 13:06:31,639 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a byte[]
+2014-02-27 13:06:31,639 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [C@fe14adc
+2014-02-27 13:06:31,639 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'char[]' value '[C@fe14adc' to type 'char[]'
+2014-02-27 13:06:31,639 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a char[]
+2014-02-27 13:06:31,639 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [D@ff9b9a9
+2014-02-27 13:06:31,639 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'double[]' value '[D@ff9b9a9' to type 'double[]'
+2014-02-27 13:06:31,639 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a double[]
+2014-02-27 13:06:31,639 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [F@540c0e70
+2014-02-27 13:06:31,639 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'float[]' value '[F@540c0e70' to type 'float[]'
+2014-02-27 13:06:31,639 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a float[]
+2014-02-27 13:06:31,639 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [I@6388062b
+2014-02-27 13:06:31,639 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'int[]' value '[I@6388062b' to type 'int[]'
+2014-02-27 13:06:31,639 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a int[]
+2014-02-27 13:06:31,640 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [J@774d2419
+2014-02-27 13:06:31,640 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'long[]' value '[J@774d2419' to type 'long[]'
+2014-02-27 13:06:31,640 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a long[]
+2014-02-27 13:06:31,640 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [S@697d227f
+2014-02-27 13:06:31,640 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'short[]' value '[S@697d227f' to type 'short[]'
+2014-02-27 13:06:31,640 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a short[]
+2014-02-27 13:06:31,640 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.math.BigDecimal;@1663f5f4
+2014-02-27 13:06:31,640 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@1663f5f4' to type 'BigDecimal[]'
+2014-02-27 13:06:31,640 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a BigDecimal[]
+2014-02-27 13:06:31,640 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.math.BigInteger;@16bdcae1
+2014-02-27 13:06:31,640 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@16bdcae1' to type 'BigInteger[]'
+2014-02-27 13:06:31,640 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a BigInteger[]
+2014-02-27 13:06:31,640 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.lang.Boolean;@13b6c0f5
+2014-02-27 13:06:31,640 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'Boolean[]' value '[Ljava.lang.Boolean;@13b6c0f5' to type 'Boolean[]'
+2014-02-27 13:06:31,640 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a Boolean[]
+2014-02-27 13:06:31,640 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.lang.Byte;@1628ff62
+2014-02-27 13:06:31,640 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'Byte[]' value '[Ljava.lang.Byte;@1628ff62' to type 'Byte[]'
+2014-02-27 13:06:31,641 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a Byte[]
+2014-02-27 13:06:31,641 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.lang.Character;@5d96864b
+2014-02-27 13:06:31,641 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'Character[]' value '[Ljava.lang.Character;@5d96864b' to type 'Character[]'
+2014-02-27 13:06:31,641 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a Character[]
+2014-02-27 13:06:31,641 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.lang.Double;@3422de25
+2014-02-27 13:06:31,641 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'Double[]' value '[Ljava.lang.Double;@3422de25' to type 'Double[]'
+2014-02-27 13:06:31,641 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a Double[]
+2014-02-27 13:06:31,641 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.lang.Float;@4f120e7
+2014-02-27 13:06:31,641 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'Float[]' value '[Ljava.lang.Float;@4f120e7' to type 'Float[]'
+2014-02-27 13:06:31,641 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a Float[]
+2014-02-27 13:06:31,641 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.lang.Integer;@3a34b8fd
+2014-02-27 13:06:31,641 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'Integer[]' value '[Ljava.lang.Integer;@3a34b8fd' to type 'Integer[]'
+2014-02-27 13:06:31,641 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a Integer[]
+2014-02-27 13:06:31,641 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.lang.Long;@38b17a3f
+2014-02-27 13:06:31,641 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'Long[]' value '[Ljava.lang.Long;@38b17a3f' to type 'Long[]'
+2014-02-27 13:06:31,641 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a Long[]
+2014-02-27 13:06:31,642 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.lang.Short;@3ce56d6a
+2014-02-27 13:06:31,642 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'Short[]' value '[Ljava.lang.Short;@3ce56d6a' to type 'Short[]'
+2014-02-27 13:06:31,642 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a Short[]
+2014-02-27 13:06:31,642 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.lang.String;@6d649e14
+2014-02-27 13:06:31,642 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'String[]' value '[Ljava.lang.String;@6d649e14' to type 'String[]'
+2014-02-27 13:06:31,642 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a String[]
+2014-02-27 13:06:31,642 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.lang.Class;@68c66b27
+2014-02-27 13:06:31,642 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'Class[]' value '[Ljava.lang.Class;@68c66b27' to type 'Class[]'
+2014-02-27 13:06:31,642 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a Class[]
+2014-02-27 13:06:31,642 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.util.Date;@2773df16
+2014-02-27 13:06:31,642 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'Date[]' value '[Ljava.util.Date;@2773df16' to type 'Date[]'
+2014-02-27 13:06:31,642 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a Date[]
+2014-02-27 13:06:31,642 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.util.Calendar;@21a465e6
+2014-02-27 13:06:31,642 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'Calendar[]' value '[Ljava.util.Calendar;@21a465e6' to type 'Calendar[]'
+2014-02-27 13:06:31,642 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a Calendar[]
+2014-02-27 13:06:31,642 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.io.File;@7d8ae49a
+2014-02-27 13:06:31,643 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'java.io.File[]' value '[Ljava.io.File;@7d8ae49a' to type 'java.io.File[]'
+2014-02-27 13:06:31,643 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a java.io.File[]
+2014-02-27 13:06:31,643 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.sql.Date;@70cb9392
+2014-02-27 13:06:31,643 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@70cb9392' to type 'java.sql.Date[]'
+2014-02-27 13:06:31,643 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a java.sql.Date[]
+2014-02-27 13:06:31,643 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.sql.Time;@764eb8cd
+2014-02-27 13:06:31,643 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@764eb8cd' to type 'java.sql.Time[]'
+2014-02-27 13:06:31,643 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a java.sql.Time[]
+2014-02-27 13:06:31,643 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.sql.Timestamp;@d430ae
+2014-02-27 13:06:31,643 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@d430ae' to type 'java.sql.Timestamp[]'
+2014-02-27 13:06:31,643 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a java.sql.Timestamp[]
+2014-02-27 13:06:31,643 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Setting default value: [Ljava.net.URL;@6c592906
+2014-02-27 13:06:31,643 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter] Converting 'java.net.URL[]' value '[Ljava.net.URL;@6c592906' to type 'java.net.URL[]'
+2014-02-27 13:06:31,643 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.ArrayConverter]     No conversion required, value is already a java.net.URL[]
+2014-02-27 13:06:31,655 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.ConvertUtils] Convert string 'SERIALNUMBER123.ericsson.com' to class 'java.lang.String'
+2014-02-27 13:06:31,655 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.StringConverter] Converting 'String' value 'SERIALNUMBER123.ericsson.com' to type 'String'
+2014-02-27 13:06:31,655 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.ConvertUtils] Convert string 'This is serious business integration is in progress' to class 'java.lang.String'
+2014-02-27 13:06:31,655 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.StringConverter] Converting 'String' value 'This is serious business integration is in progress' to type 'String'
+2014-02-27 13:06:31,655 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.ConvertUtils] Convert string 'SUCCESS' to class 'java.lang.String'
+2014-02-27 13:06:31,655 [endToEndPerformance] [DEBUG] [org.apache.commons.beanutils.converters.StringConverter] Converting 'String' value 'SUCCESS' to type 'String'
+2014-02-27 13:06:31,674 [endToEndPerformance] [INFO] [se.ericsson.jcat.fw.ng.logging.writers.HtmlLogWriterNG] New file: C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target/Jcat_LOGS\1_verifyAutoIntegrationEndToEndSC2.log.html
+2014-02-27 13:06:31,685 [endToEndPerformance] [INFO] [se.ericsson.jcat.fw.ng.logging.writers.HtmlLogWriterNG] <b><font color="blue">TC: Verify ai-web and ai-core read, write and delete works fine using server sc2
+CONTEXT: null VUSERS: 1</font></b>
+2014-02-27 13:06:31,686 [endToEndPerformance] [INFO] [se.ericsson.jcat.fw.ng.logging.writers.HtmlLogWriterNG] <b><font color="blue">TC ID: taftest-aicore-func-6</font></b>
+2014-02-27 13:06:31,686 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.execution.TORTestCaseListener] Processing EndToEndTest.verifyAutoIntegrationEndToEndSC2(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ericsson.cifwk.taf.oasis.test.cases.EndToEndTest@412cb806]SERIALNUMBER123.ericsson.com This is serious business integration is in progress SUCCESS  1093449734
+2014-02-27 13:06:31,715 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.execution.TORTestCaseListener] Current CONTEXT updates API
+2014-02-27 13:06:31,716 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.execution.TORTestCaseListener] Current VUSERS updates 1
+2014-02-27 13:06:32,199 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshConnectionsHelper] Creating new connections to 10.45.200.115 on port 2244 for user root with pass litpc0b6lEr
+2014-02-27 13:06:32,199 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshConnectionsHelper] Connections updated: [10.45.200.115:root:22:shroot:[com.sshtools.j2ssh.SshClient@2df3a4], 10.45.200.115:root:2244:litpc0b6lEr:[com.sshtools.j2ssh.SshClient@2e1f7d4a]]
+2014-02-27 13:06:32,200 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshConnectionsHelper] Connecting to 10.45.200.115 on port 2244
+2014-02-27 13:06:32,643 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshConnectionsHelper] Connection started. Current state: 4
+2014-02-27 13:06:32,936 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshConnectionsHelper] Authentication finished with status COMPLETE
+2014-02-27 13:06:33,308 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshFileCopy] Usig client com.sshtools.j2ssh.SftpClient@658957a7
+2014-02-27 13:06:33,342 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshFileCopy] Copying C:\Users\emacgma\git_repos\ai-core-testware\ai-core-testcases\src\main\resources\keys\aiweb_taf_key.priv to 10.45.200.115:/ericsson/tor/data/autointegration/files/tmp_taf_e2e/aiweb_taf_key.priv
+2014-02-27 13:06:34,491 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshFileCopy] Usig client com.sshtools.j2ssh.SftpClient@662e3b6f
+2014-02-27 13:06:34,506 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.utils.ssh.J2SshFileCopy] Copying C:\Users\emacgma\git_repos\ai-core-testware\ai-core-testcases\src\main\resources\keys\aiweb_taf_SERIALNUMBER123.ericsson.com.crt to 10.45.200.115:/ericsson/tor/data/autointegration/files/tmp_taf_e2e/aiweb_taf.crt
+2014-02-27 13:06:34,578 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.handlers.AsRmiHandler] Setting up Context. I should only see this once (per thread) com.ericsson.cifwk.taf.handlers.AsRmiHandler@ec1f4de
+2014-02-27 13:06:34,579 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.handlers.AsRmiHandler] Set up the context for the JNDI lookup
+2014-02-27 13:06:34,582 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.handlers.AsRmiHandler] applicationRealUser=User username=guest password=guestp type=OPER
+2014-02-27 13:06:34,583 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.handlers.AsRmiHandler] userName=guest
+2014-02-27 13:06:34,583 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.handlers.AsRmiHandler] pass=guestp
+2014-02-27 13:06:34,583 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.handlers.AsRmiHandler] ip=127.0.0.1
+2014-02-27 13:06:34,642 [endToEndPerformance] [DEBUG] [org.jboss.naming.remote.client.InitialContextFactory] Looking for jboss-naming-client.properties using classloader java.net.URLClassLoader@26190041
+2014-02-27 13:06:34,645 [endToEndPerformance] [DEBUG] [org.jboss.naming.remote.client.InitialContextFactory] jboss.naming.client.endpoint.create.options. has the following options {}
+2014-02-27 13:06:34,647 [endToEndPerformance] [DEBUG] [org.jboss.naming.remote.client.InitialContextFactory] jboss.naming.client.remote.connectionprovider.create.options. has the following options {}
+2014-02-27 13:06:34,656 [endToEndPerformance] [INFO] [org.xnio] XNIO Version 3.0.7.GA-redhat-1
+2014-02-27 13:06:34,665 [endToEndPerformance] [INFO] [org.xnio.nio] XNIO NIO Implementation Version 3.0.7.GA-redhat-1
+2014-02-27 13:06:34,685 [endToEndPerformance] [INFO] [org.jboss.remoting] JBoss Remoting version 3.2.14.GA-redhat-1
+2014-02-27 13:06:34,728 [Remoting "config-based-naming-client-endpoint" read-1] [DEBUG] [org.xnio.nio] Started channel thread 'Remoting "config-based-naming-client-endpoint" read-1', selector sun.nio.ch.WindowsSelectorImpl@62b17d7c
+2014-02-27 13:06:34,732 [Remoting "config-based-naming-client-endpoint" write-1] [DEBUG] [org.xnio.nio] Started channel thread 'Remoting "config-based-naming-client-endpoint" write-1', selector sun.nio.ch.WindowsSelectorImpl@f06b91
+2014-02-27 13:06:34,762 [endToEndPerformance] [DEBUG] [org.jboss.naming.remote.client.InitialContextFactory] jboss.naming.client.connect.options. has the following options {}
+2014-02-27 13:06:34,781 [endToEndPerformance] [DEBUG] [org.jboss.ejb.client.EJBClientPropertiesLoader] Looking for jboss-ejb-client.properties using classloader java.net.URLClassLoader@26190041
+2014-02-27 13:06:34,791 [endToEndPerformance] [DEBUG] [org.jboss.ejb.client.remoting.ConfigBasedEJBClientContextSelector] EJB client context org.jboss.ejb.client.EJBClientContext@a78955e will have no EJB receivers associated with it since there was no EJB client configuration available to create the receivers
+2014-02-27 13:06:34,795 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.handlers.AsRmiHandler] Returning context javax.naming.InitialContext@5ba41c3
+2014-02-27 13:06:35,190 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.remoting.remote.client] Client authentication failed for mechanism JBOSS-LOCAL-USER: javax.security.sasl.SaslException: Failed to read server challenge [Caused by java.io.FileNotFoundException: \home\jboss\Serv_su_1_jee_cfg\standalone\tmp\auth\local4055269045980118636.challenge (The system cannot find the path specified)]
+2014-02-27 13:06:35,836 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.handlers.AsRmiHandler] Found service Proxy for remote EJB StatelessEJBLocator{appName='ai-core-ear-1.3.2', moduleName='ai-core-ejb-1.3.2', distinctName='', beanName='AICoreServiceBean', view='interface com.ericsson.nms.security.aicore.api.AICoreService'}
+2014-02-27 13:06:35,849 [Remoting "config-based-naming-client-endpoint" task-4] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Channel Channel ID fcdc5b58 (outbound) of Remoting connection 3f6c7c9c to /127.0.0.1:14451 opened for context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]} Waiting for version handshake message from server
+2014-02-27 13:06:36,062 [Remoting "config-based-naming-client-endpoint" task-1] [INFO] [org.jboss.ejb.client.remoting] EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2014-02-27 13:06:36,076 [endToEndPerformance] [INFO] [org.jboss.ejb.client.remoting] EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]} on channel Channel ID fcdc5b58 (outbound) of Remoting connection 3f6c7c9c to /127.0.0.1:14451
+2014-02-27 13:06:36,081 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Received module availability report for 45 modules
+2014-02-27 13:06:36,081 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='cm-writer-ear-1.5.4', moduleName='cm-writer-ear-1.5.4', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,083 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='pm-service-ear-1.4.4', moduleName='pm-service-war-1.4.4', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,083 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='data-persistence-service-runtime', moduleName='data-persistence-service-runtime', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,083 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='ai-core-ear-1.3.2', moduleName='ai-core-war-1.3.2', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,083 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='script-engine-ear-1.5.1', moduleName='script-engine-ear-1.5.1', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,084 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='cm-writer-ear-1.5.4', moduleName='cm-writer-ejb-1.5.4', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,084 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='jsr-77', moduleName='jsr-77', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,084 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='pm-service-ear-1.4.4', moduleName='pm-service-ear-1.4.4', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,085 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='presentation-server-ear-2.2.3', moduleName='presentation-server-ear-2.2.3', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,085 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='caas-web-ear-1.1.2', moduleName='caas-web-ear-1.1.2', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,085 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='topologySearchService-ear-1.4.7', moduleName='topologySearchService-rest', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,086 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='topologySearchService-ear-1.4.7', moduleName='topologySearchService-ejb-1.4.7', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,086 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='smrs-service-ear-1.0.17', moduleName='smrs-service-war-1.0.17', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,086 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='mediation-core', moduleName='mediationcore-4.0.123', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,086 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='ai-web-ear-1.2.8', moduleName='ai-web-ejb-1.2.8', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,087 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='ai-web-ear-1.2.8', moduleName='ai-web-ear-1.2.8', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,087 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='pm-service-ear-1.4.4', moduleName='pm-service-ejb-1.4.4', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,087 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='cm-reader-ear-1.5.1', moduleName='cm-reader-ear-1.5.1', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,088 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='PlatformIntegrationBridge-ear-1.10.4', moduleName='PlatformIntegrationBridge-ejb-1.10.4', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,088 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='PlatformIntegrationBridge-ear-1.10.4', moduleName='PlatformIntegrationBridge-war-1.10.4', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,088 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='topologyCollectionsService-ear-1.4.7', moduleName='topologyCollectionsService-ear-1.4.7', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,088 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='ai-web-ear-1.2.8', moduleName='ai-web-war-1.2.8', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,089 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='topologyCollectionsService-ear-1.4.7', moduleName='topologyCollectionsService-war', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,089 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='cm-editor-ear-1.5.1', moduleName='cm-editor-ear-1.5.1', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,089 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='presentation-server-ear-2.2.3', moduleName='uisettings.service-ejb', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,089 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='topologyCollectionsService-ear-1.4.7', moduleName='topologyCollectionsService-ejb-1.4.7', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,090 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='presentation-server-ear-2.2.3', moduleName='application.service-ejb', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,090 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='script-engine-ear-1.5.1', moduleName='script-engine-ejb-1.5.1', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,090 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='presentation-server-ear-2.2.3', moduleName='rest', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,091 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='ai-core-ear-1.3.2', moduleName='ai-core-ear-1.3.2', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,091 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='topologySearchService-ear-1.4.7', moduleName='topologySearchService-ear-1.4.7', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,091 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='caas-web-ear-1.1.2', moduleName='caas-web-war-1.1.2', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,092 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='node-security-ear-1.1.8', moduleName='node-security-ear-1.1.8', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,092 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='caas-web-ear-1.1.2', moduleName='caas-web-ejb-1.1.2', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,092 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='smrs-service-ear-1.0.17', moduleName='smrs-service-ear-1.0.17', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,092 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='node-security-ear-1.1.8', moduleName='node-security-ejb-1.1.8', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,093 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='cm-reader-ear-1.5.1', moduleName='cm-reader-ejb-1.5.1', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,093 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='ai-core-ear-1.3.2', moduleName='ai-core-ejb-1.3.2', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,093 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='cm-editor-ear-1.5.1', moduleName='cm-editor-ejb-1.5.1', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,094 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='smrs-service-ear-1.0.17', moduleName='smrs-service-ejb-1.0.17', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,094 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='mediation-core', moduleName='mediation-core-ejb-4.0.123', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,094 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='data-persistence-service-runtime', moduleName='dps-ejb-1.2.7', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,094 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='presentation-server-ear-2.2.3', moduleName='auth-cookie', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,095 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='PlatformIntegrationBridge-ear-1.10.4', moduleName='PlatformIntegrationBridge-ear-1.10.4', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,095 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Registering module EJBModuleIdentifier{appName='script-engine-ear-1.5.1', moduleName='script-engine-war-1.5.1', distinctName=''} availability for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@14ca7473, receiver=Remoting connection EJB receiver [connection=Remoting connection <6d3e7edd>,channel=jboss.ejb,nodename=Serv_su_1_jee_cfg]}
+2014-02-27 13:06:36,108 [endToEndPerformance] [DEBUG] [org.jboss.ejb.client.EJBClientContext] org.jboss.ejb.client.RandomDeploymentNodeSelector@3a0b14fe deployment node selector selected Serv_su_1_jee_cfg node for appname=ai-core-ear-1.3.2,modulename=ai-core-ejb-1.3.2,distinctname=
+2014-02-27 13:06:36,187 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.ClusterNode] Checking for a match of client address /fe80:0:0:0:349a:da76:cb2d:5e95%13 with client mapping ClientMapping{sourceNetworkAddress=/0:0:0:0:0:0:0:0, sourceNetworkMaskBits=0, destinationAddress='192.168.0.90', destinationPort=4447}
+2014-02-27 13:06:36,189 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.ClusterNode] Client mapping ClientMapping{sourceNetworkAddress=/0:0:0:0:0:0:0:0, sourceNetworkMaskBits=0, destinationAddress='192.168.0.90', destinationPort=4447} matches client address /fe80:0:0:0:349a:da76:cb2d:5e95%13
+2014-02-27 13:06:36,190 [Remoting "config-based-naming-client-endpoint" task-2] [DEBUG] [org.jboss.ejb.client.remoting.ClusterTopologyMessageHandler] Received a cluster node(s) addition message, for cluster named Serv_su_1_jee_cfg with 1 nodes [ClusterNode{clusterName='Serv_su_1_jee_cfg', nodeName='Serv_su_1_jee_cfg', clientMappings=[ClientMapping{sourceNetworkAddress=/0:0:0:0:0:0:0:0, sourceNetworkMaskBits=0, destinationAddress='192.168.0.90', destinationPort=4447}], resolvedDestination=[Destination address=192.168.0.90, destination port=4447]}]
+2014-02-27 13:06:41,203 [ejb-client-cluster-node-connection-creation-3-thread-1] [INFO] [org.jboss.ejb.client.remoting.RemotingConnectionClusterNodeManager] Could not create a connection for cluster node ClusterNode{clusterName='Serv_su_1_jee_cfg', nodeName='Serv_su_1_jee_cfg', clientMappings=[ClientMapping{sourceNetworkAddress=/0:0:0:0:0:0:0:0, sourceNetworkMaskBits=0, destinationAddress='192.168.0.90', destinationPort=4447}], resolvedDestination=[Destination address=192.168.0.90, destination port=4447]} in cluster Serv_su_1_jee_cfg
+java.lang.RuntimeException: Operation failed with status WAITING
+	at org.jboss.ejb.client.remoting.IoFutureHelper.get(IoFutureHelper.java:93)
+	at org.jboss.ejb.client.remoting.RemotingConnectionClusterNodeManager.getEJBReceiver(RemotingConnectionClusterNodeManager.java:115)
+	at org.jboss.ejb.client.ClusterContext$EJBReceiverAssociationTask.call(ClusterContext.java:406)
+	at org.jboss.ejb.client.ClusterContext$EJBReceiverAssociationTask.call(ClusterContext.java:380)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Executing restool call on host: 10.45.200.115
+Executing restool call on url: https://192.168.0.90:8443/autobind/
+2014-02-27 13:06:41,635 [endToEndPerformance] [DEBUG] [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: best-match
+2014-02-27 13:06:41,635 [Remoting "config-based-naming-client-endpoint" task-1] [ERROR] [org.jboss.naming.remote.protocol.v1.RemoteNamingStoreV1] Channel end notification received, closing channel Channel ID 8b61e05e (outbound) of Remoting connection 3f6c7c9c to /127.0.0.1:14451
+2014-02-27 13:06:41,639 [Remoting "config-based-naming-client-endpoint" task-3] [INFO] [org.jboss.ejb.client.remoting] EJBCLIENT000016: Channel Channel ID fcdc5b58 (outbound) of Remoting connection 3f6c7c9c to null can no longer process messages
+2014-02-27 13:06:41,639 [Finalizer] [DEBUG] [org.jboss.ejb.client.remoting.ChannelAssociation] Closing channel Channel ID fcdc5b58 (outbound) of Remoting connection 3f6c7c9c to null
+2014-02-27 13:06:41,641 [Finalizer] [DEBUG] [org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver] Closing channelChannel ID fcdc5b58 (outbound) of Remoting connection 3f6c7c9c to null
+2014-02-27 13:06:41,650 [Finalizer] [DEBUG] [com.ericsson.cifwk.taf.handlers.AsRmiHandler] Closing RMI context <javax.naming.InitialContext@5ba41c3 myProps=null defaultInitCtx=null gotDefault=false>
+2014-02-27 13:06:41,659 [endToEndPerformance] [DEBUG] [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+2014-02-27 13:06:41,662 [endToEndPerformance] [DEBUG] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection request: [route: {s}->https://127.0.0.1:18447][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2014-02-27 13:06:41,692 [endToEndPerformance] [DEBUG] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection leased: [id: 0][route: {s}->https://127.0.0.1:18447][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2014-02-27 13:06:41,700 [endToEndPerformance] [DEBUG] [org.apache.http.impl.execchain.MainClientExec] Opening connection {s}->https://127.0.0.1:18447
+2014-02-27 13:06:42,183 [endToEndPerformance] [DEBUG] [org.apache.http.conn.HttpClientConnectionManager] Connecting to /127.0.0.1:18447
+2014-02-27 13:07:45,189 [endToEndPerformance] [DEBUG] [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: Shutdown connection
+2014-02-27 13:07:45,190 [endToEndPerformance] [DEBUG] [org.apache.http.impl.execchain.MainClientExec] Connection discarded
+2014-02-27 13:07:45,190 [endToEndPerformance] [DEBUG] [org.apache.http.impl.conn.DefaultManagedHttpClientConnection] http-outgoing-0: Close connection
+2014-02-27 13:07:45,191 [endToEndPerformance] [DEBUG] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection released: [id: 0][route: {s}->https://127.0.0.1:18447][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2014-02-27 13:07:45,198 [endToEndPerformance] [INFO] [se.ericsson.jcat.fw.ng.listeners.JcatTestListener] *** OVERALL TESTCASE RESULT ***
+2014-02-27 13:07:45,199 [endToEndPerformance] [ERROR] [se.ericsson.jcat.fw.ng.listeners.JcatTestListener] Assertion failed - Uncaught exception during testcase: java.lang.IllegalStateException: Connection was aborted
+2014-02-27 13:07:45,200 [endToEndPerformance] [ERROR] [se.ericsson.jcat.fw.ng.listeners.JcatTestListener] Stack trace
+java.lang.IllegalStateException: Connection was aborted
+	at com.ericsson.cifwk.taf.tools.http.impl.RequestBuilderImpl.executeMethod(RequestBuilderImpl.java:227)
+	at com.ericsson.cifwk.taf.tools.http.impl.RequestBuilderImpl.get(RequestBuilderImpl.java:139)
+	at com.ericsson.cifwk.taf.tools.http.impl.HttpToolImpl.get(HttpToolImpl.java:139)
+	at com.ericsson.cifwk.taf.oasis.test.cases.EndToEndTest.runE2ETest(EndToEndTest.java:146)
+	at com.ericsson.cifwk.taf.oasis.test.cases.EndToEndTest.verifyAutoIntegrationEndToEndSC2(EndToEndTest.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at com.ericsson.cifwk.taf.testng.WorkerProxy.run(WorkerProxy.java:20)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.ericsson.cifwk.taf.testng.Invoker.invoke(Invoker.java:21)
+	at com.ericsson.cifwk.taf.testng.TafTestRunner.invokePrivateRun(TafTestRunner.java:228)
+	at com.ericsson.cifwk.taf.testng.TafTestRunner.runSimple(TafTestRunner.java:105)
+	at com.ericsson.cifwk.taf.testng.TafTestRunner.run(TafTestRunner.java:94)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: javax.net.ssl.SSLHandshakeException: Remote host closed connection during handshake
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:946)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1312)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1339)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1323)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:261)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:118)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:357)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:218)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:194)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:85)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at com.ericsson.cifwk.taf.tools.http.impl.RequestBuilderImpl.executeMethod(RequestBuilderImpl.java:216)
+	... 33 more
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at sun.security.ssl.InputRecord.read(InputRecord.java:482)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:927)
+	... 47 more
+2014-02-27 13:07:45,202 [endToEndPerformance] [INFO] [se.ericsson.jcat.fw.ng.listeners.JcatTestListener] Event Check Passed
+2014-02-27 13:07:45,249 [endToEndPerformance] [INFO] [com.ericsson.cifwk.taf.handlers.netsim.spi.NetSimTestListener] NetSim test listener: closing all open NetSim sessions
+2014-02-27 13:07:45,252 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.handlers.netsim.NetSimCommandHandler] NetSim context registry initialized
+2014-02-27 13:07:45,253 [endToEndPerformance] [INFO] [com.ericsson.cifwk.taf.handlers.netsim.spi.NetSimTestListener] NetSim test listener: all open NetSim sessions closed
+2014-02-27 13:07:45,253 [endToEndPerformance] [INFO] [com.ericsson.cifwk.taf.ui.spi.UiTestListener] closing UI windows that are still open
+2014-02-27 13:07:45,255 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.ui.UI] UI window provider registry initialized
+2014-02-27 13:07:45,265 [endToEndPerformance] [INFO] [com.ericsson.cifwk.taf.ui.spi.UiTestListener] all UI windows closed
+2014-02-27 13:07:45,606 [endToEndPerformance] [INFO] [com.ericsson.cifwk.taf.handlers.netsim.spi.NetSimTestListener] NetSim test listener: closing all open NetSim sessions
+2014-02-27 13:07:45,606 [endToEndPerformance] [INFO] [com.ericsson.cifwk.taf.handlers.netsim.spi.NetSimTestListener] NetSim test listener: all open NetSim sessions closed
+2014-02-27 13:07:45,606 [endToEndPerformance] [INFO] [com.ericsson.cifwk.taf.ui.spi.UiTestListener] closing UI windows that are still open
+2014-02-27 13:07:45,606 [endToEndPerformance] [INFO] [com.ericsson.cifwk.taf.ui.spi.UiTestListener] all UI windows closed
+2014-02-27 13:07:45,608 [endToEndPerformance] [DEBUG] [com.ericsson.cifwk.taf.SuiteExecutionHelper] Finished execution of endToEndPerformance
+
+===============================================
+endToEndPerformance
+Total tests run: 1, Failures: 1, Skips: 0
+===============================================
+
+2014-02-27 13:07:45,616 [com.ericsson.cifwk.taf.Taf.main()] [DEBUG] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] Stopping monitors
+2014-02-27 13:07:45,695 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [se.ericsson.jcat.fw.ng.logging.writers.JenkinsLogWriterNG] Report generated: C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target/Jcat_LOGS\jenkins.xml
+2014-02-27 13:07:45,801 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [se.ericsson.jcat.fw.ng.listeners.JcatSuiteListener] The HTML logs are in: C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target/Jcat_LOGS\index.html
+2014-02-27 13:07:45,801 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [se.ericsson.jcat.fw.ng.listeners.JcatSuiteListener] The Console log is: C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\target/Jcat_LOGS\console.log
+2014-02-27 13:07:45,802 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [com.ericsson.cifwk.taf.TorNgSuiteListener] No monitor data to be put on HTML report
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ ai-core-test-execution ---
+[INFO] Installing C:\Users\emacgma\git_repos\ai-core-testware\ai-core-test-execution\pom.xml to C:\Users\emacgma\.m2\repository\com\ericsson\nms\security\taf\ai-core-test-execution\1.0.1-SNAPSHOT\ai-core-test-execution-1.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] ai-core-testware .................................. SUCCESS [0.588s]
+[INFO] ai-core-testcases ................................. SUCCESS [7.695s]
+[INFO] ai-core-test-execution ............................ SUCCESS [1:44.194s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1:52.884s
+[INFO] Finished at: Thu Feb 27 13:07:46 GMT 2014
+[INFO] Final Memory: 72M/501M
+[INFO] ------------------------------------------------------------------------
+2014-02-27 13:07:47,447 [Finalizer] [DEBUG] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection manager is shutting down
+2014-02-27 13:07:47,448 [Finalizer] [DEBUG] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] Connection manager shut down
+2014-02-27 13:07:47,447 [Thread-5] [DEBUG] [com.ericsson.cifwk.taf.monitor.AbstractMonitor] Stopping monitors
+2014-02-27 13:07:47,448 [Thread-3] [DEBUG] [com.ericsson.cifwk.taf.utils.ScheduledCleaner] Cleaning after run [tmp\files, C:\Users\emacgma\git_repos\ai-core-testware\tmp\rest\restOutput, C:\Users\emacgma\git_repos\ai-core-testware\tmp\rest]

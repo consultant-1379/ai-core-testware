@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AICore TAF Environment and Functional Tests">
+	<test name="Transaction" preserve-order="true">
+		<classes>
+
+           <class name="com.ericsson.nms.security.taf.test.cases.TafEnvironmentTest" />
+
+        	<class name="com.ericsson.nms.security.taf.test.cases.AICoreTest">
+                 <methods>
+                    <include name="verifyAICoreWriteFiles" />
+                    <include name="verifyAICoreDeleteFiles" />
+                    <include name="verifyAICoreConcurrentWritingFilesAsExpected"/>
+                    <include name="verifyAICoreDeleteNonExistingFiles"/>
+                    <include name="verifyAICoreWriteFilesMultipleCalls"/>
+                </methods>
+            </class>
+
+         </classes>
+     </test>
+ </suite>

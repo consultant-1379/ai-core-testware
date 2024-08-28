@@ -1,0 +1,92 @@
+[
+    {
+        "hostname": "ms1", 
+        "ip": "127.0.0.1", 
+        "ports": {
+            "ssh": 22
+        }, 
+        "type": "ms", 
+        "users": [
+            {
+                "password": "12shroot", 
+                "type": "admin", 
+                "username": "root"
+            }
+        ]
+    },
+    {
+        "hostname": "sc1", 
+        "ip": "127.0.0.1", 
+        "nodes": [
+            {
+                "group": "httpd", 
+                "hostname": "httpd_su0", 
+                "ip": "127.0.0.1", 
+                "ports": {
+                    "http": 8080, 
+                    "https": 8080
+                }, 
+                "type": "http", 
+                "users": [
+                    {
+                        "password": "shroot", 
+                        "type": "admin", 
+                        "username": "root"
+                    }
+                ]
+            },
+            {
+                "group": "secserv", 
+                "hostname": "secserv_su0", 
+                "ip": "127.0.0.1", 
+                "ports": {
+                    "http": 8080, 
+                    "jboss_management": 9999, 
+                    "jmx": 9999, 
+                    "rmi": 4447
+                }, 
+                "type": "jboss", 
+                "users": [
+                    {
+                        "password": "shroot", 
+                        "type": "admin", 
+                        "username": "root"
+                    }, 
+                    {
+                        "password": "guestp", 
+                        "type": "oper", 
+                        "username": "guest"
+                    }
+                ]
+            }, 
+            {
+                "group": "secserv", 
+                "hostname": "secserv_su1", 
+                "ip": "127.0.0.1", 
+                "ports": {
+                    "http": 8080, 
+                    "jboss_management": 9999, 
+                    "jmx": 9999, 
+                    "rmi": 4447
+                }, 
+                "type": "jboss", 
+                "users": [
+                    {
+                        "password": "shroot", 
+                        "type": "admin", 
+                        "username": "root"
+                    }, 
+                    {
+                        "password": "guestp", 
+                        "type": "oper", 
+                        "username": "guest"
+                    }
+                ]
+            }
+        ], 
+        "ports": {
+            "ssh": 22
+        }, 
+        "type": "sc1"
+    }
+]

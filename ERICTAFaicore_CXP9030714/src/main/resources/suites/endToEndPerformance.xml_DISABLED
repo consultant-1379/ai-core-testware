@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="EndToEnd_Perfomrnace_1_Cert_50_Concurrent_Users">
+	<test name="AIWeb_AICore_EndToEnd_Performance">
+		<classes>
+			<class name="com.ericsson.nms.security.taf.test.cases.EndToEndTestPerformance">
+				<methods>
+				    <include name="verifyAutoIntegrationEndToEndSC2" />
+                    <include name="verifyAutoIntegrationEndToEndSC1" />
+                    <!--<include name="verifyAutoIntegrationEndToEnd50CertsInParallel" /> Currently disabled - cyclic property
+                    (to enable concurrent tests with different certificates)in datadriven.properties not working-->
+				</methods>
+            </class>
+		</classes>
+	</test>
+</suite>

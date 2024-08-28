@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="EndToEnd_Tests">
+	<test name="AIWeb_AICore_EndToEnd">
+		<classes>
+			<class name="com.ericsson.nms.security.taf.test.cases.EndToEndTest">
+				<methods>
+                    <include name="verifyAutoIntegrationEndToEndSC2" />
+                    <include name="verifyAutoIntegrationEndToEndSC1" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
